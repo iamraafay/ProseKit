@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Test artifacts
+iteration-0/test_results.txt
+
+# Models (too large for git)
+models/
