@@ -47,48 +47,102 @@ enum RewriteMode: String, CaseIterable, Identifiable, Codable {
 
     // MARK: - LLM Prompt Configuration
 
-    /// Temperature for this mode. Grammar uses lower temp for conservative corrections.
+    /// Temperature for this mode. Tuned per-mode during prompt evaluation (2026-02-07).
     var temperature: Float {
         switch self {
-        case .grammar: return 0.3
-        default:       return 0.7
+        case .grammar:      return 0.2
+        case .concise:      return 0.4
+        case .casual:       return 0.6
+        case .professional: return 0.5
         }
     }
 
-    /// The mode-specific instruction inserted into the system prompt.
-    private var modeInstruction: String {
-        switch self {
-        case .grammar:
-            return "fix ONLY grammar, spelling, and punctuation errors. Do not change word choice, tone, or sentence structure."
-        case .concise:
-            return "make the text shorter and tighter. Remove filler words, redundancy, and unnecessary qualifiers. Keep the core meaning."
-        case .casual:
-            return "rewrite in a casual, friendly tone. Make it sound natural and conversational."
-        case .professional:
-            return "rewrite in a polished, professional tone. Make it clear, well-structured, and appropriate for business communication."
-        }
-    }
-
-    /// Full system prompt for the LLM. Includes anti-overcorrection rules and /no_think directive.
+    /// Full system prompt for the LLM. Each mode has a dedicated prompt optimized via eval harness.
     ///
     /// The `/no_think` at the end is a Qwen3-specific soft switch that disables chain-of-thought
     /// reasoning. Without it, the model emits <think>...</think> blocks that consume the token
     /// budget and cause 15s+ latency. With it: 2.65s avg, 0% failures. (Validated 2026-02-06)
+    ///
+    /// Prompt variants validated on 2026-02-07:
+    /// - Grammar: v8_minimal_diff — JFLEG GLEU 0.7364, overcorrection 0.0668
+    /// - Concise: v5_few_shot — composite 0.6691, meaning 97.8%, compression 0.50x
+    /// - Casual:  v5_few_shot — composite 0.6194, GLEU 0.5441, stability 100%
+    /// - Professional: v6_few_shot_concise — composite 0.7391, meaning 97.8%, formality 0.72
     var systemPrompt: String {
-        """
-        You are a text editor. You \(modeInstruction).
+        switch self {
+        case .grammar:
+            return """
+            Proofread the following text. Fix any spelling, grammar, or punctuation errors. Your goal is to produce the smallest possible diff — change as few characters as possible while fixing all errors.
 
-        RULES — follow these exactly:
-        1. Return ONLY the corrected/rewritten text. No explanations, no preamble, no markdown.
-        2. Do NOT add information that wasn't in the original.
-        3. Do NOT remove sentences unless the mode is "Concise".
-        4. Preserve all proper nouns, technical terms, URLs, and @mentions exactly.
-        5. Preserve the original paragraph/line break structure.
-        6. If the text is already good, return it unchanged.
-        7. Keep the same approximate length (±20%) unless mode is "Concise".
-        8. Do NOT wrap your response in quotes.
+            Rules:
+            - Output ONLY the corrected text
+            - Do NOT rephrase or restructure sentences
+            - Do NOT change correct words to synonyms
+            - Do NOT add or remove words unless fixing an error
+            - If text is correct, return it unchanged
 
-        /no_think
-        """
+            /no_think
+            """
+
+        case .concise:
+            return """
+            Make the text more concise. Keep all facts and meaning.
+
+            Examples:
+            Input: I just wanted to reach out to let you know that the meeting has been rescheduled.
+            Output: The meeting has been rescheduled.
+
+            Input: Due to the fact that the server was experiencing issues, we made the decision to restart it.
+            Output: We restarted the server due to issues.
+
+            Input: The API returns JSON.
+            Output: The API returns JSON.
+
+            Now shorten this text. Output ONLY the result:
+
+            /no_think
+            """
+
+        case .casual:
+            return """
+            Rewrite in a casual, friendly tone. Keep all the same information.
+
+            Examples:
+            Input: I would like to inform you that the meeting has been rescheduled to Thursday at 2:00 PM.
+            Output: Hey, just a heads up — the meeting's been moved to Thursday at 2 PM.
+
+            Input: Please ensure that all deliverables are submitted prior to the established deadline.
+            Output: Make sure to get everything in before the deadline!
+
+            Input: Hey, wanna grab lunch tomorrow?
+            Output: Hey, wanna grab lunch tomorrow?
+
+            Now rewrite this text casually. Output ONLY the result:
+
+            /no_think
+            """
+
+        case .professional:
+            return """
+            Rewrite in a professional, business-appropriate tone. Keep all facts and key terms. Be concise — don't over-formalize.
+
+            Examples:
+            Input: hey so the numbers look pretty good this quarter, revenue is up like 15%
+            Output: This quarter's results are strong — revenue increased 15%, exceeding our targets.
+
+            Input: the deploy broke prod, we're rolling back now
+            Output: A production incident occurred during deployment. We are currently executing a rollback.
+
+            Input: tbh i dont think this approach is gonna work
+            Output: I have concerns about the viability of this approach.
+
+            Input: Please find attached the quarterly report for your review.
+            Output: Please find attached the quarterly report for your review.
+
+            Now rewrite this text professionally. Output ONLY the result:
+
+            /no_think
+            """
+        }
     }
 }

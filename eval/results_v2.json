@@ -1,0 +1,1726 @@
+{
+  "timestamp": "2026-02-07 14:49:29",
+  "num_samples": 31,
+  "results": [
+    {
+      "metrics": {
+        "variant": "v2_strict_minimal",
+        "temperature": 0.2,
+        "total_samples": 31,
+        "errors": 0,
+        "avg_gleu": 0.6615636911702286,
+        "median_gleu": 0.7611606003349892,
+        "exact_match_rate": 0.2903225806451613,
+        "change_rate": 0.8064516129032258,
+        "avg_overcorrection": 0.09222497932175351,
+        "avg_latency": 1.1120254531983407,
+        "p95_latency": 1.3279101848602295
+      },
+      "details": [
+        {
+          "index": 0,
+          "source": "Their going to the park with there friends.",
+          "output": "Their going to the park with there friends.",
+          "references": [
+            "They're going to the park with their friends."
+          ],
+          "gleu": 0.5623413251903491,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 0.8678741455078125
+        },
+        {
+          "index": 1,
+          "source": "Your the best person I no.",
+          "output": "You are the best person I know.",
+          "references": [
+            "You're the best person I know."
+          ],
+          "gleu": 0.6147881529512643,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 1.0,
+          "latency": 0.8401322364807129
+        },
+        {
+          "index": 2,
+          "source": "Its been a long day and the dog lost it's bone.",
+          "output": "It's been a long day and the dog lost it's bone.",
+          "references": [
+            "It's been a long day and the dog lost its bone."
+          ],
+          "gleu": 0.8070557274927982,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9552359580993652
+        },
+        {
+          "index": 3,
+          "source": "Who's book is this? I think its your's.",
+          "output": "Who's book is this? I think it's yours.",
+          "references": [
+            "Whose book is this? I think it's yours."
+          ],
+          "gleu": 0.8408964152537145,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9145119190216064
+        },
+        {
+          "index": 4,
+          "source": "The team are going to the finals and they is very excited.",
+          "output": "The team is going to the finals and they is very excited.",
+          "references": [
+            "The team is going to the finals and they are very excited.",
+            "The team are going to the finals and they are very excited."
+          ],
+          "gleu": 0.7691605673134586,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9569571018218994
+        },
+        {
+          "index": 5,
+          "source": "Each of the students have their own laptop.",
+          "output": "Each of the students has their own laptop.",
+          "references": [
+            "Each of the students has their own laptop."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.059023141860962
+        },
+        {
+          "index": 6,
+          "source": "There is many reasons why this wont work.",
+          "output": "There is many reasons why this won't work.",
+          "references": [
+            "There are many reasons why this won't work."
+          ],
+          "gleu": 0.7071067811865475,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0961377620697021
+        },
+        {
+          "index": 7,
+          "source": "I goes to the store yesterday and buyed some milk.",
+          "output": "I went to the store yesterday and bought some milk.",
+          "references": [
+            "I went to the store yesterday and bought some milk."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1120388507843018
+        },
+        {
+          "index": 8,
+          "source": "She was walking home when she sees a cat and picked it up.",
+          "output": "She was walking home when she sees a cat and picked it up.",
+          "references": [
+            "She was walking home when she saw a cat and picked it up."
+          ],
+          "gleu": 0.7611606003349892,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.1789491176605225
+        },
+        {
+          "index": 9,
+          "source": "He has went to the gym every day last week.",
+          "output": "He has gone to the gym every day last week.",
+          "references": [
+            "He went to the gym every day last week.",
+            "He has gone to the gym every day last week."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0822999477386475
+        },
+        {
+          "index": 10,
+          "source": "I recieved the accomodation details for the confrence.",
+          "output": "I received the accommodation details for the conference.",
+          "references": [
+            "I received the accommodation details for the conference."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.077253818511963
+        },
+        {
+          "index": 11,
+          "source": "The goverment made an annoucement about the enviroment.",
+          "output": "The government made an announcement about the environment.",
+          "references": [
+            "The government made an announcement about the environment."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0893518924713135
+        },
+        {
+          "index": 12,
+          "source": "She definately didnt know about the occurence.",
+          "output": "She definately didn't know about the occurence.",
+          "references": [
+            "She definitely didn't know about the occurrence."
+          ],
+          "gleu": 0.4347208719449915,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1287322044372559
+        },
+        {
+          "index": 13,
+          "source": "I need go to store to buy a bread.",
+          "output": "I need to go to store to buy a bread.",
+          "references": [
+            "I need to go to the store to buy bread.",
+            "I need to go to the store to buy some bread."
+          ],
+          "gleu": 0.5410822690539396,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.4,
+          "latency": 1.1398558616638184
+        },
+        {
+          "index": 14,
+          "source": "She is best student in the class.",
+          "output": "She is the best student in the class.",
+          "references": [
+            "She is the best student in the class."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.113144874572754
+        },
+        {
+          "index": 15,
+          "source": "Lets eat grandma before she gets cold",
+          "output": "Let's eat grandma before she gets cold.",
+          "references": [
+            "Let's eat, grandma, before she gets cold.",
+            "Let's eat, Grandma, before she gets cold."
+          ],
+          "gleu": 0.4347208719449915,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.052293062210083
+        },
+        {
+          "index": 16,
+          "source": "I like cooking my family and my pets",
+          "output": "I like cooking for my family and my pets",
+          "references": [
+            "I like cooking, my family, and my pets."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6666666666666666,
+          "latency": 1.0819580554962158
+        },
+        {
+          "index": 17,
+          "source": "however I think that were going to be late dont you agree",
+          "output": "however I think that we are going to be late don't you agree",
+          "references": [
+            "However, I think that we're going to be late. Don't you agree?",
+            "However, I think that we're going to be late, don't you agree?"
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6923076923076923,
+          "latency": 1.1753208637237549
+        },
+        {
+          "index": 18,
+          "source": "The weather is beautiful today.",
+          "output": "The weather is beautiful today.",
+          "references": [
+            "The weather is beautiful today."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.044956922531128
+        },
+        {
+          "index": 19,
+          "source": "I'm going to finish this project by Friday.",
+          "output": "I'm going to finish this project by Friday.",
+          "references": [
+            "I'm going to finish this project by Friday."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.1119658946990967
+        },
+        {
+          "index": 20,
+          "source": "She quickly ran across the street to catch the bus.",
+          "output": "She quickly ran across the street to catch the bus.",
+          "references": [
+            "She quickly ran across the street to catch the bus."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.1324882507324219
+        },
+        {
+          "index": 21,
+          "source": "hey can u send me the file i need it asap thx",
+          "output": "Hey can u send me the file I need it asap thx",
+          "references": [
+            "Hey, can you send me the file? I need it ASAP. Thanks.",
+            "Hey, can you send me the file? I need it ASAP, thanks."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1609559059143066
+        },
+        {
+          "index": 22,
+          "source": "im gonna be late to the meeting sry something came up",
+          "output": "I'm gonna be late to the meeting sry something came up",
+          "references": [
+            "I'm going to be late to the meeting, sorry, something came up.",
+            "I'm gonna be late to the meeting, sorry, something came up."
+          ],
+          "gleu": 0.5193071778680676,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1968941688537598
+        },
+        {
+          "index": 23,
+          "source": "lmk when your free to talk about the project",
+          "output": "LMK when you're free to talk about the project",
+          "references": [
+            "Let me know when you're free to talk about the project.",
+            "LMK when you're free to talk about the project."
+          ],
+          "gleu": 0.8633400213704505,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1689872741699219
+        },
+        {
+          "index": 24,
+          "source": "did you seen the email from the client? its importent",
+          "output": "Did you see the email from the client? It's importent.",
+          "references": [
+            "Did you see the email from the client? It's important."
+          ],
+          "gleu": 0.8801117367933934,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.1,
+          "latency": 1.2226860523223877
+        },
+        {
+          "index": 25,
+          "source": "Me and him goes to the libary every tuesdays to studie for are exam.",
+          "output": "Me and him goes to the library every tuesdays to study for our exam.",
+          "references": [
+            "He and I go to the library every Tuesday to study for our exam."
+          ],
+          "gleu": 0.45723134461864345,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.3279101848602295
+        },
+        {
+          "index": 26,
+          "source": "The companys profits has droped significently since they're CEO leaved.",
+          "output": "The company's profits has dropped significantly since they're CEO left.",
+          "references": [
+            "The company's profits have dropped significantly since their CEO left."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1496832370758057
+        },
+        {
+          "index": 27,
+          "source": "I should of went to the docter but I didnt had no time.",
+          "output": "I should of went to the doctor but I didn't had no time.",
+          "references": [
+            "I should have gone to the doctor, but I didn't have time.",
+            "I should have gone to the doctor but I didn't have any time."
+          ],
+          "gleu": 0.4408231875586727,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.2492070198059082
+        },
+        {
+          "index": 28,
+          "source": "Noone could of predicted that the wether would be so bad on they're wedding day.",
+          "output": "Noone could of predicted that the wether would be so bad on they're wedding day.",
+          "references": [
+            "No one could have predicted that the weather would be so bad on their wedding day."
+          ],
+          "gleu": 0.34642261789369483,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.353910207748413
+        },
+        {
+          "index": 29,
+          "source": "The API endpoint returns a JSON object which contain the users data.",
+          "output": "The API endpoint returns a JSON object which contains the users data.",
+          "references": [
+            "The API endpoint returns a JSON object which contains the user's data.",
+            "The API endpoint returns a JSON object that contains the user's data."
+          ],
+          "gleu": 0.8265168183793802,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.2227988243103027
+        },
+        {
+          "index": 30,
+          "source": "Please insure that all tests passes before merging the pull request.",
+          "output": "Please ensure that all tests passes before merging the pull request.",
+          "references": [
+            "Please ensure that all tests pass before merging the pull request."
+          ],
+          "gleu": 0.7016879391277371,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.2092742919921875
+        }
+      ]
+    },
+    {
+      "metrics": {
+        "variant": "v6_strict_with_examples",
+        "temperature": 0.2,
+        "total_samples": 31,
+        "errors": 0,
+        "avg_gleu": 0.6947777439082927,
+        "median_gleu": 0.7691605673134586,
+        "exact_match_rate": 0.3870967741935484,
+        "change_rate": 0.7419354838709677,
+        "avg_overcorrection": 0.05996691480562449,
+        "avg_latency": 1.5766860438931374,
+        "p95_latency": 1.7790229320526123
+      },
+      "details": [
+        {
+          "index": 0,
+          "source": "Their going to the park with there friends.",
+          "output": "Their going to the park with there friends.",
+          "references": [
+            "They're going to the park with their friends."
+          ],
+          "gleu": 0.5623413251903491,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.4781200885772705
+        },
+        {
+          "index": 1,
+          "source": "Your the best person I no.",
+          "output": "Your the best person I no.",
+          "references": [
+            "You're the best person I know."
+          ],
+          "gleu": 0.5081327481546147,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.4137299060821533
+        },
+        {
+          "index": 2,
+          "source": "Its been a long day and the dog lost it's bone.",
+          "output": "It's been a long day and the dog lost it's bone.",
+          "references": [
+            "It's been a long day and the dog lost its bone."
+          ],
+          "gleu": 0.8070557274927982,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.5679771900177002
+        },
+        {
+          "index": 3,
+          "source": "Who's book is this? I think its your's.",
+          "output": "Who's book is this? I think it's yours.",
+          "references": [
+            "Whose book is this? I think it's yours."
+          ],
+          "gleu": 0.8408964152537145,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.5276176929473877
+        },
+        {
+          "index": 4,
+          "source": "The team are going to the finals and they is very excited.",
+          "output": "The team are going to the finals and they is very excited.",
+          "references": [
+            "The team is going to the finals and they are very excited.",
+            "The team are going to the finals and they are very excited."
+          ],
+          "gleu": 0.7691605673134586,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.5515141487121582
+        },
+        {
+          "index": 5,
+          "source": "Each of the students have their own laptop.",
+          "output": "Each of the students has their own laptop.",
+          "references": [
+            "Each of the students has their own laptop."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.4856290817260742
+        },
+        {
+          "index": 6,
+          "source": "There is many reasons why this wont work.",
+          "output": "There is many reasons why this won't work.",
+          "references": [
+            "There are many reasons why this won't work."
+          ],
+          "gleu": 0.7071067811865475,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.5322039127349854
+        },
+        {
+          "index": 7,
+          "source": "I goes to the store yesterday and buyed some milk.",
+          "output": "I went to the store yesterday and bought some milk.",
+          "references": [
+            "I went to the store yesterday and bought some milk."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.517746925354004
+        },
+        {
+          "index": 8,
+          "source": "She was walking home when she sees a cat and picked it up.",
+          "output": "She was walking home when she sees a cat and picked it up.",
+          "references": [
+            "She was walking home when she saw a cat and picked it up."
+          ],
+          "gleu": 0.7611606003349892,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.6064949035644531
+        },
+        {
+          "index": 9,
+          "source": "He has went to the gym every day last week.",
+          "output": "He has gone to the gym every day last week.",
+          "references": [
+            "He went to the gym every day last week.",
+            "He has gone to the gym every day last week."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.5568211078643799
+        },
+        {
+          "index": 10,
+          "source": "I recieved the accomodation details for the confrence.",
+          "output": "I received the accommodation details for the conference.",
+          "references": [
+            "I received the accommodation details for the conference."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.5139620304107666
+        },
+        {
+          "index": 11,
+          "source": "The goverment made an annoucement about the enviroment.",
+          "output": "The government made an announcement about the environment.",
+          "references": [
+            "The government made an announcement about the environment."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.5221989154815674
+        },
+        {
+          "index": 12,
+          "source": "She definately didnt know about the occurence.",
+          "output": "She definately didn't know about the occurence.",
+          "references": [
+            "She definitely didn't know about the occurrence."
+          ],
+          "gleu": 0.4347208719449915,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.540290117263794
+        },
+        {
+          "index": 13,
+          "source": "I need go to store to buy a bread.",
+          "output": "I need to go to store to buy a bread.",
+          "references": [
+            "I need to go to the store to buy bread.",
+            "I need to go to the store to buy some bread."
+          ],
+          "gleu": 0.5410822690539396,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.4,
+          "latency": 1.5597550868988037
+        },
+        {
+          "index": 14,
+          "source": "She is best student in the class.",
+          "output": "She is the best student in the class.",
+          "references": [
+            "She is the best student in the class."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.528414011001587
+        },
+        {
+          "index": 15,
+          "source": "Lets eat grandma before she gets cold",
+          "output": "Let's eat grandma before she gets cold.",
+          "references": [
+            "Let's eat, grandma, before she gets cold.",
+            "Let's eat, Grandma, before she gets cold."
+          ],
+          "gleu": 0.4347208719449915,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.5122509002685547
+        },
+        {
+          "index": 16,
+          "source": "I like cooking my family and my pets",
+          "output": "I like cooking for my family and my pets.",
+          "references": [
+            "I like cooking, my family, and my pets."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6666666666666666,
+          "latency": 1.52435302734375
+        },
+        {
+          "index": 17,
+          "source": "however I think that were going to be late dont you agree",
+          "output": "However I think that we are going to be late don't you agree",
+          "references": [
+            "However, I think that we're going to be late. Don't you agree?",
+            "However, I think that we're going to be late, don't you agree?"
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6923076923076923,
+          "latency": 1.502744197845459
+        },
+        {
+          "index": 18,
+          "source": "The weather is beautiful today.",
+          "output": "The weather is beautiful today.",
+          "references": [
+            "The weather is beautiful today."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.358339786529541
+        },
+        {
+          "index": 19,
+          "source": "I'm going to finish this project by Friday.",
+          "output": "I'm going to finish this project by Friday.",
+          "references": [
+            "I'm going to finish this project by Friday."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.5775740146636963
+        },
+        {
+          "index": 20,
+          "source": "She quickly ran across the street to catch the bus.",
+          "output": "She quickly ran across the street to catch the bus.",
+          "references": [
+            "She quickly ran across the street to catch the bus."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.5806427001953125
+        },
+        {
+          "index": 21,
+          "source": "hey can u send me the file i need it asap thx",
+          "output": "Hey can u send me the file I need it asap thx",
+          "references": [
+            "Hey, can you send me the file? I need it ASAP. Thanks.",
+            "Hey, can you send me the file? I need it ASAP, thanks."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.6640639305114746
+        },
+        {
+          "index": 22,
+          "source": "im gonna be late to the meeting sry something came up",
+          "output": "I'm gonna be late to the meeting sry something came up",
+          "references": [
+            "I'm going to be late to the meeting, sorry, something came up.",
+            "I'm gonna be late to the meeting, sorry, something came up."
+          ],
+          "gleu": 0.5193071778680676,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.6356019973754883
+        },
+        {
+          "index": 23,
+          "source": "lmk when your free to talk about the project",
+          "output": "LMK when you're free to talk about the project.",
+          "references": [
+            "Let me know when you're free to talk about the project.",
+            "LMK when you're free to talk about the project."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.6023268699645996
+        },
+        {
+          "index": 24,
+          "source": "did you seen the email from the client? its importent",
+          "output": "Did you seen the email from the client? It's importent.",
+          "references": [
+            "Did you see the email from the client? It's important."
+          ],
+          "gleu": 0.5814307369682193,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.1,
+          "latency": 1.6870157718658447
+        },
+        {
+          "index": 25,
+          "source": "Me and him goes to the libary every tuesdays to studie for are exam.",
+          "output": "Me and him goes to the library every tuesdays to study for our exam.",
+          "references": [
+            "He and I go to the library every Tuesday to study for our exam."
+          ],
+          "gleu": 0.45723134461864345,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.7790229320526123
+        },
+        {
+          "index": 26,
+          "source": "The companys profits has droped significently since they're CEO leaved.",
+          "output": "The company's profits have dropped significantly since their CEO left.",
+          "references": [
+            "The company's profits have dropped significantly since their CEO left."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.6524701118469238
+        },
+        {
+          "index": 27,
+          "source": "I should of went to the docter but I didnt had no time.",
+          "output": "I should of went to the doctor but I didn't had no time.",
+          "references": [
+            "I should have gone to the doctor, but I didn't have time.",
+            "I should have gone to the doctor but I didn't have any time."
+          ],
+          "gleu": 0.4408231875586727,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.7524890899658203
+        },
+        {
+          "index": 28,
+          "source": "Noone could of predicted that the wether would be so bad on they're wedding day.",
+          "output": "Noone could of predicted that the wether would be so bad on they're wedding day.",
+          "references": [
+            "No one could have predicted that the weather would be so bad on their wedding day."
+          ],
+          "gleu": 0.34642261789369483,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.810873031616211
+        },
+        {
+          "index": 29,
+          "source": "The API endpoint returns a JSON object which contain the users data.",
+          "output": "The API endpoint returns a JSON object which contains the users data.",
+          "references": [
+            "The API endpoint returns a JSON object which contains the user's data.",
+            "The API endpoint returns a JSON object that contains the user's data."
+          ],
+          "gleu": 0.8265168183793802,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.7056410312652588
+        },
+        {
+          "index": 30,
+          "source": "Please insure that all tests passes before merging the pull request.",
+          "output": "Please ensure that all tests pass before merging the pull request.",
+          "references": [
+            "Please ensure that all tests pass before merging the pull request."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.629382848739624
+        }
+      ]
+    },
+    {
+      "metrics": {
+        "variant": "v7_surgical",
+        "temperature": 0.1,
+        "total_samples": 31,
+        "errors": 0,
+        "avg_gleu": 0.8041764500242794,
+        "median_gleu": 1.0,
+        "exact_match_rate": 0.6129032258064516,
+        "change_rate": 0.8709677419354839,
+        "avg_overcorrection": 0.08899917287014061,
+        "avg_latency": 1.0347685813903809,
+        "p95_latency": 1.1349589824676514
+      },
+      "details": [
+        {
+          "index": 0,
+          "source": "Their going to the park with there friends.",
+          "output": "Their going to the park with there friends.",
+          "references": [
+            "They're going to the park with their friends."
+          ],
+          "gleu": 0.5623413251903491,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 0.9997889995574951
+        },
+        {
+          "index": 1,
+          "source": "Your the best person I no.",
+          "output": "You are the best person I know.",
+          "references": [
+            "You're the best person I know."
+          ],
+          "gleu": 0.6147881529512643,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 1.0,
+          "latency": 0.9908449649810791
+        },
+        {
+          "index": 2,
+          "source": "Its been a long day and the dog lost it's bone.",
+          "output": "It's been a long day and the dog lost its bone.",
+          "references": [
+            "It's been a long day and the dog lost its bone."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0633759498596191
+        },
+        {
+          "index": 3,
+          "source": "Who's book is this? I think its your's.",
+          "output": "Whose book is this? I think it's yours.",
+          "references": [
+            "Whose book is this? I think it's yours."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.046010971069336
+        },
+        {
+          "index": 4,
+          "source": "The team are going to the finals and they is very excited.",
+          "output": "The team is going to the finals and they are very excited.",
+          "references": [
+            "The team is going to the finals and they are very excited.",
+            "The team are going to the finals and they are very excited."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.068789005279541
+        },
+        {
+          "index": 5,
+          "source": "Each of the students have their own laptop.",
+          "output": "Each of the students has their own laptop.",
+          "references": [
+            "Each of the students has their own laptop."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9659709930419922
+        },
+        {
+          "index": 6,
+          "source": "There is many reasons why this wont work.",
+          "output": "There is many reasons why this won't work.",
+          "references": [
+            "There are many reasons why this won't work."
+          ],
+          "gleu": 0.7071067811865475,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9343199729919434
+        },
+        {
+          "index": 7,
+          "source": "I goes to the store yesterday and buyed some milk.",
+          "output": "I went to the store yesterday and bought some milk.",
+          "references": [
+            "I went to the store yesterday and bought some milk."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0185821056365967
+        },
+        {
+          "index": 8,
+          "source": "She was walking home when she sees a cat and picked it up.",
+          "output": "She was walking home when she saw a cat and picked it up.",
+          "references": [
+            "She was walking home when she saw a cat and picked it up."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0803711414337158
+        },
+        {
+          "index": 9,
+          "source": "He has went to the gym every day last week.",
+          "output": "He has gone to the gym every day last week.",
+          "references": [
+            "He went to the gym every day last week.",
+            "He has gone to the gym every day last week."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.012315034866333
+        },
+        {
+          "index": 10,
+          "source": "I recieved the accomodation details for the confrence.",
+          "output": "I received the accommodation details for the conference.",
+          "references": [
+            "I received the accommodation details for the conference."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9561307430267334
+        },
+        {
+          "index": 11,
+          "source": "The goverment made an annoucement about the enviroment.",
+          "output": "The government made an announcement about the environment.",
+          "references": [
+            "The government made an announcement about the environment."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9868159294128418
+        },
+        {
+          "index": 12,
+          "source": "She definately didnt know about the occurence.",
+          "output": "She definitely didn't know about the occurrence.",
+          "references": [
+            "She definitely didn't know about the occurrence."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9566972255706787
+        },
+        {
+          "index": 13,
+          "source": "I need go to store to buy a bread.",
+          "output": "I need to go to store to buy a bread.",
+          "references": [
+            "I need to go to the store to buy bread.",
+            "I need to go to the store to buy some bread."
+          ],
+          "gleu": 0.5410822690539396,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.4,
+          "latency": 1.0123867988586426
+        },
+        {
+          "index": 14,
+          "source": "She is best student in the class.",
+          "output": "She is the best student in the class.",
+          "references": [
+            "She is the best student in the class."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9762680530548096
+        },
+        {
+          "index": 15,
+          "source": "Lets eat grandma before she gets cold",
+          "output": "Let's eat grandma before she gets cold.",
+          "references": [
+            "Let's eat, grandma, before she gets cold.",
+            "Let's eat, Grandma, before she gets cold."
+          ],
+          "gleu": 0.4347208719449915,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9721128940582275
+        },
+        {
+          "index": 16,
+          "source": "I like cooking my family and my pets",
+          "output": "I like cooking for my family and my pets.",
+          "references": [
+            "I like cooking, my family, and my pets."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6666666666666666,
+          "latency": 0.9789071083068848
+        },
+        {
+          "index": 17,
+          "source": "however I think that were going to be late dont you agree",
+          "output": "However I think that we are going to be late don't you agree",
+          "references": [
+            "However, I think that we're going to be late. Don't you agree?",
+            "However, I think that we're going to be late, don't you agree?"
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6923076923076923,
+          "latency": 1.0880320072174072
+        },
+        {
+          "index": 18,
+          "source": "The weather is beautiful today.",
+          "output": "The weather is beautiful today.",
+          "references": [
+            "The weather is beautiful today."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 0.9198191165924072
+        },
+        {
+          "index": 19,
+          "source": "I'm going to finish this project by Friday.",
+          "output": "I'm going to finish this project by Friday.",
+          "references": [
+            "I'm going to finish this project by Friday."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 0.9701690673828125
+        },
+        {
+          "index": 20,
+          "source": "She quickly ran across the street to catch the bus.",
+          "output": "She quickly ran across the street to catch the bus.",
+          "references": [
+            "She quickly ran across the street to catch the bus."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.022629737854004
+        },
+        {
+          "index": 21,
+          "source": "hey can u send me the file i need it asap thx",
+          "output": "Hey can you send me the file I need it asap thx",
+          "references": [
+            "Hey, can you send me the file? I need it ASAP. Thanks.",
+            "Hey, can you send me the file? I need it ASAP, thanks."
+          ],
+          "gleu": 0.4240125351805037,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0789768695831299
+        },
+        {
+          "index": 22,
+          "source": "im gonna be late to the meeting sry something came up",
+          "output": "I'm gonna be late to the meeting sry something came up",
+          "references": [
+            "I'm going to be late to the meeting, sorry, something came up.",
+            "I'm gonna be late to the meeting, sorry, something came up."
+          ],
+          "gleu": 0.5193071778680676,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0819849967956543
+        },
+        {
+          "index": 23,
+          "source": "lmk when your free to talk about the project",
+          "output": "Let me know when you're free to talk about the project.",
+          "references": [
+            "Let me know when you're free to talk about the project.",
+            "LMK when you're free to talk about the project."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0685012340545654
+        },
+        {
+          "index": 24,
+          "source": "did you seen the email from the client? its importent",
+          "output": "Did you see the email from the client? It's important.",
+          "references": [
+            "Did you see the email from the client? It's important."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0934138298034668
+        },
+        {
+          "index": 25,
+          "source": "Me and him goes to the libary every tuesdays to studie for are exam.",
+          "output": "Me and him goes to the library every Tuesdays to study for our exam.",
+          "references": [
+            "He and I go to the library every Tuesday to study for our exam."
+          ],
+          "gleu": 0.45723134461864345,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1349589824676514
+        },
+        {
+          "index": 26,
+          "source": "The companys profits has droped significently since they're CEO leaved.",
+          "output": "The company's profits have dropped significantly since their CEO left.",
+          "references": [
+            "The company's profits have dropped significantly since their CEO left."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0476808547973633
+        },
+        {
+          "index": 27,
+          "source": "I should of went to the docter but I didnt had no time.",
+          "output": "I should have gone to the doctor but I didn't have no time.",
+          "references": [
+            "I should have gone to the doctor, but I didn't have time.",
+            "I should have gone to the doctor but I didn't have any time."
+          ],
+          "gleu": 0.842362674378975,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.1343958377838135
+        },
+        {
+          "index": 28,
+          "source": "Noone could of predicted that the wether would be so bad on they're wedding day.",
+          "output": "No one could have predicted that the weather would be so bad on their wedding day.",
+          "references": [
+            "No one could have predicted that the weather would be so bad on their wedding day."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.2327148914337158
+        },
+        {
+          "index": 29,
+          "source": "The API endpoint returns a JSON object which contain the users data.",
+          "output": "The API endpoint returns a JSON object which contains the users data.",
+          "references": [
+            "The API endpoint returns a JSON object which contains the user's data.",
+            "The API endpoint returns a JSON object that contains the user's data."
+          ],
+          "gleu": 0.8265168183793802,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.126018762588501
+        },
+        {
+          "index": 30,
+          "source": "Please insure that all tests passes before merging the pull request.",
+          "output": "Please ensure that all tests pass before merging the pull request.",
+          "references": [
+            "Please ensure that all tests pass before merging the pull request."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0588419437408447
+        }
+      ]
+    },
+    {
+      "metrics": {
+        "variant": "v8_minimal_diff",
+        "temperature": 0.2,
+        "total_samples": 31,
+        "errors": 0,
+        "avg_gleu": 0.7586403786026269,
+        "median_gleu": 0.8633400213704505,
+        "exact_match_rate": 0.4838709677419355,
+        "change_rate": 0.8387096774193549,
+        "avg_overcorrection": 0.09101530190239868,
+        "avg_latency": 1.0370782267662786,
+        "p95_latency": 1.163477897644043
+      },
+      "details": [
+        {
+          "index": 0,
+          "source": "Their going to the park with there friends.",
+          "output": "Their going to the park with there friends.",
+          "references": [
+            "They're going to the park with their friends."
+          ],
+          "gleu": 0.5623413251903491,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.0086989402770996
+        },
+        {
+          "index": 1,
+          "source": "Your the best person I no.",
+          "output": "You are the best person I know.",
+          "references": [
+            "You're the best person I know."
+          ],
+          "gleu": 0.6147881529512643,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 1.0,
+          "latency": 0.9493460655212402
+        },
+        {
+          "index": 2,
+          "source": "Its been a long day and the dog lost it's bone.",
+          "output": "It's been a long day and the dog lost it's bone.",
+          "references": [
+            "It's been a long day and the dog lost its bone."
+          ],
+          "gleu": 0.8070557274927982,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0581800937652588
+        },
+        {
+          "index": 3,
+          "source": "Who's book is this? I think its your's.",
+          "output": "Who's book is this? I think it's yours.",
+          "references": [
+            "Whose book is this? I think it's yours."
+          ],
+          "gleu": 0.8408964152537145,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0517950057983398
+        },
+        {
+          "index": 4,
+          "source": "The team are going to the finals and they is very excited.",
+          "output": "The team is going to the finals and they are very excited.",
+          "references": [
+            "The team is going to the finals and they are very excited.",
+            "The team are going to the finals and they are very excited."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0478739738464355
+        },
+        {
+          "index": 5,
+          "source": "Each of the students have their own laptop.",
+          "output": "Each of the students has their own laptop.",
+          "references": [
+            "Each of the students has their own laptop."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9735159873962402
+        },
+        {
+          "index": 6,
+          "source": "There is many reasons why this wont work.",
+          "output": "There is many reasons why this won't work.",
+          "references": [
+            "There are many reasons why this won't work."
+          ],
+          "gleu": 0.7071067811865475,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9992618560791016
+        },
+        {
+          "index": 7,
+          "source": "I goes to the store yesterday and buyed some milk.",
+          "output": "I went to the store yesterday and bought some milk.",
+          "references": [
+            "I went to the store yesterday and bought some milk."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0036687850952148
+        },
+        {
+          "index": 8,
+          "source": "She was walking home when she sees a cat and picked it up.",
+          "output": "She was walking home when she saw a cat and picked it up.",
+          "references": [
+            "She was walking home when she saw a cat and picked it up."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0833747386932373
+        },
+        {
+          "index": 9,
+          "source": "He has went to the gym every day last week.",
+          "output": "He has gone to the gym every day last week.",
+          "references": [
+            "He went to the gym every day last week.",
+            "He has gone to the gym every day last week."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0096352100372314
+        },
+        {
+          "index": 10,
+          "source": "I recieved the accomodation details for the confrence.",
+          "output": "I received the accommodation details for the conference.",
+          "references": [
+            "I received the accommodation details for the conference."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0030601024627686
+        },
+        {
+          "index": 11,
+          "source": "The goverment made an annoucement about the enviroment.",
+          "output": "The government made an announcement about the environment.",
+          "references": [
+            "The government made an announcement about the environment."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9273810386657715
+        },
+        {
+          "index": 12,
+          "source": "She definately didnt know about the occurence.",
+          "output": "She definitely didn't know about the occurrence.",
+          "references": [
+            "She definitely didn't know about the occurrence."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0205941200256348
+        },
+        {
+          "index": 13,
+          "source": "I need go to store to buy a bread.",
+          "output": "I need to go to store to buy a bread.",
+          "references": [
+            "I need to go to the store to buy bread.",
+            "I need to go to the store to buy some bread."
+          ],
+          "gleu": 0.5410822690539396,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.4,
+          "latency": 1.0534789562225342
+        },
+        {
+          "index": 14,
+          "source": "She is best student in the class.",
+          "output": "She is the best student in the class.",
+          "references": [
+            "She is the best student in the class."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9902889728546143
+        },
+        {
+          "index": 15,
+          "source": "Lets eat grandma before she gets cold",
+          "output": "Let's eat grandma before she gets cold.",
+          "references": [
+            "Let's eat, grandma, before she gets cold.",
+            "Let's eat, Grandma, before she gets cold."
+          ],
+          "gleu": 0.4347208719449915,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 0.9752671718597412
+        },
+        {
+          "index": 16,
+          "source": "I like cooking my family and my pets",
+          "output": "I like cooking for my family and my pets",
+          "references": [
+            "I like cooking, my family, and my pets."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6666666666666666,
+          "latency": 0.9979710578918457
+        },
+        {
+          "index": 17,
+          "source": "however I think that were going to be late dont you agree",
+          "output": "however I think that we are going to be late don't you agree",
+          "references": [
+            "However, I think that we're going to be late. Don't you agree?",
+            "However, I think that we're going to be late, don't you agree?"
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.6923076923076923,
+          "latency": 1.0750532150268555
+        },
+        {
+          "index": 18,
+          "source": "The weather is beautiful today.",
+          "output": "The weather is beautiful today.",
+          "references": [
+            "The weather is beautiful today."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 0.9369339942932129
+        },
+        {
+          "index": 19,
+          "source": "I'm going to finish this project by Friday.",
+          "output": "I'm going to finish this project by Friday.",
+          "references": [
+            "I'm going to finish this project by Friday."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.0354039669036865
+        },
+        {
+          "index": 20,
+          "source": "She quickly ran across the street to catch the bus.",
+          "output": "She quickly ran across the street to catch the bus.",
+          "references": [
+            "She quickly ran across the street to catch the bus."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.0081839561462402
+        },
+        {
+          "index": 21,
+          "source": "hey can u send me the file i need it asap thx",
+          "output": "hey can u send me the file i need it asap thx",
+          "references": [
+            "Hey, can you send me the file? I need it ASAP. Thanks.",
+            "Hey, can you send me the file? I need it ASAP, thanks."
+          ],
+          "gleu": 0.0,
+          "exact_match": false,
+          "changed": false,
+          "overcorrection": 0.0,
+          "latency": 1.1232521533966064
+        },
+        {
+          "index": 22,
+          "source": "im gonna be late to the meeting sry something came up",
+          "output": "I'm gonna be late to the meeting sry something came up",
+          "references": [
+            "I'm going to be late to the meeting, sorry, something came up.",
+            "I'm gonna be late to the meeting, sorry, something came up."
+          ],
+          "gleu": 0.5193071778680676,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0684099197387695
+        },
+        {
+          "index": 23,
+          "source": "lmk when your free to talk about the project",
+          "output": "lmk when you're free to talk about the project",
+          "references": [
+            "Let me know when you're free to talk about the project.",
+            "LMK when you're free to talk about the project."
+          ],
+          "gleu": 0.8633400213704505,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0337798595428467
+        },
+        {
+          "index": 24,
+          "source": "did you seen the email from the client? its importent",
+          "output": "Did you see the email from the client? It's important.",
+          "references": [
+            "Did you see the email from the client? It's important."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.066715955734253
+        },
+        {
+          "index": 25,
+          "source": "Me and him goes to the libary every tuesdays to studie for are exam.",
+          "output": "Me and him go to the library every Tuesdays to study for our exam.",
+          "references": [
+            "He and I go to the library every Tuesday to study for our exam."
+          ],
+          "gleu": 0.5445178846139404,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.139509916305542
+        },
+        {
+          "index": 26,
+          "source": "The companys profits has droped significently since they're CEO leaved.",
+          "output": "The company's profits have dropped significantly since their CEO left.",
+          "references": [
+            "The company's profits have dropped significantly since their CEO left."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0582218170166016
+        },
+        {
+          "index": 27,
+          "source": "I should of went to the docter but I didnt had no time.",
+          "output": "I should of went to the doctor but I didn't had no time.",
+          "references": [
+            "I should have gone to the doctor, but I didn't have time.",
+            "I should have gone to the doctor but I didn't have any time."
+          ],
+          "gleu": 0.4408231875586727,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.163477897644043
+        },
+        {
+          "index": 28,
+          "source": "Noone could of predicted that the wether would be so bad on they're wedding day.",
+          "output": "No one could of predicted that the weather would be so bad on their wedding day.",
+          "references": [
+            "No one could have predicted that the weather would be so bad on their wedding day."
+          ],
+          "gleu": 0.8153551038173115,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0625,
+          "latency": 1.1705601215362549
+        },
+        {
+          "index": 29,
+          "source": "The API endpoint returns a JSON object which contain the users data.",
+          "output": "The API endpoint returns a JSON object which contains the users data.",
+          "references": [
+            "The API endpoint returns a JSON object which contains the user's data.",
+            "The API endpoint returns a JSON object that contains the user's data."
+          ],
+          "gleu": 0.8265168183793802,
+          "exact_match": false,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0662131309509277
+        },
+        {
+          "index": 30,
+          "source": "Please insure that all tests passes before merging the pull request.",
+          "output": "Please ensure that all tests pass before merging the pull request.",
+          "references": [
+            "Please ensure that all tests pass before merging the pull request."
+          ],
+          "gleu": 1.0,
+          "exact_match": true,
+          "changed": true,
+          "overcorrection": 0.0,
+          "latency": 1.0503170490264893
+        }
+      ]
+    }
+  ]
+}

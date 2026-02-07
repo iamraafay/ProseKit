@@ -35,7 +35,6 @@ class ModelManager: ObservableObject {
     /// Load the model. Downloads from HuggingFace on first call.
     /// Updates appState with progress during download.
     func initialize(modelID: String = defaultModelID, appState: AppState) async {
-        NSLog("[ModelManager] initialize() called with modelID: \(modelID)")
         appState.modelStatus = .downloading(progress: 0)
         statusMessage = "Preparing model..."
 
@@ -47,7 +46,6 @@ class ModelManager: ObservableObject {
                     self?.statusMessage = progress < 1.0
                         ? "Downloading: \(pct)%"
                         : "Loading model into memory..."
-                    NSLog("[ModelManager] Download progress: \(pct)%")
 
                     appState.modelStatus = progress < 1.0
                         ? .downloading(progress: progress)
@@ -58,12 +56,8 @@ class ModelManager: ObservableObject {
             isLoaded = true
             statusMessage = "Model ready"
             appState.modelStatus = .ready
-            try? "Model loaded successfully!".write(toFile: "/tmp/prosekit-status.txt", atomically: true, encoding: .utf8)
 
         } catch {
-            let errorMsg = "\(error)"
-            NSLog("[ModelManager] ERROR: %@", errorMsg)
-            try? errorMsg.write(toFile: "/tmp/prosekit-error.txt", atomically: true, encoding: .utf8)
             statusMessage = "Failed: \(error.localizedDescription)"
             appState.modelStatus = .error(error.localizedDescription)
         }

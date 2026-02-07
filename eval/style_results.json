@@ -1,0 +1,3221 @@
+{
+  "timestamp": "2026-02-07 15:21:24",
+  "modes": {
+    "concise": [
+      {
+        "metrics": {
+          "variant": "concise_v1_production",
+          "mode": "concise",
+          "temperature": 0.7,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.26653135347143936,
+          "avg_meaning": 0.9555555555555556,
+          "avg_latency": 1.3894320011138916,
+          "avg_compression": 0.6671456634763087,
+          "bloat_rate": 0.0,
+          "composite": 0.5664823736652059
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I just wanted to reach out to you to let you know that I think we should probably schedule a meeting at some point in the near future to discuss the project.",
+            "output": "I wanted to reach out to let you know I think we should schedule a meeting soon to discuss the project.",
+            "references": [
+              "Let's schedule a meeting to discuss the project.",
+              "We should meet soon to discuss the project."
+            ],
+            "gleu": 0.19554016376461797,
+            "meaning_preserved": 1.0,
+            "latency": 1.2483270168304443,
+            "compression_ratio": 0.65625,
+            "bloated": false
+          },
+          {
+            "index": 1,
+            "source": "Due to the fact that the weather conditions were extremely unfavorable, we made the decision to postpone the outdoor event until a later date.",
+            "output": "Because weather conditions were extremely unfavorable, we postponed the outdoor event to a later date.",
+            "references": [
+              "We postponed the outdoor event due to bad weather.",
+              "Bad weather forced us to postpone the outdoor event."
+            ],
+            "gleu": 0.25748661016289676,
+            "meaning_preserved": 1.0,
+            "latency": 1.0471129417419434,
+            "compression_ratio": 0.625,
+            "bloated": false
+          },
+          {
+            "index": 2,
+            "source": "In my personal opinion, I believe that the new software update is going to be very beneficial for all of the users who are currently using the platform on a daily basis.",
+            "output": "In my personal opinion, I believe the new software update will be very beneficial for daily platform users.",
+            "references": [
+              "The new software update will benefit daily users.",
+              "I think the new update will help daily users."
+            ],
+            "gleu": 0.2186976686325118,
+            "meaning_preserved": 1.0,
+            "latency": 1.2036488056182861,
+            "compression_ratio": 0.5625,
+            "bloated": false
+          },
+          {
+            "index": 3,
+            "source": "At this point in time, we are currently in the process of evaluating and assessing all of the various different options that are available to us.",
+            "output": "We are currently evaluating and assessing all available options.",
+            "references": [
+              "We're evaluating our options.",
+              "We're currently assessing the available options."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.9114742279052734,
+            "compression_ratio": 0.34615384615384615,
+            "bloated": false
+          },
+          {
+            "index": 4,
+            "source": "The reason why the project was delayed was because the team did not have enough resources to complete it on time.",
+            "output": "The project was delayed because the team lacked sufficient resources to complete it on time.",
+            "references": [
+              "The project was delayed due to insufficient resources.",
+              "Lack of resources delayed the project."
+            ],
+            "gleu": 0.17395797375642236,
+            "meaning_preserved": 1.0,
+            "latency": 1.2211017608642578,
+            "compression_ratio": 0.7142857142857143,
+            "bloated": false
+          },
+          {
+            "index": 5,
+            "source": "I would like to take this opportunity to express my sincere gratitude for the help and assistance that you provided to me during the course of last week.",
+            "output": "I would like to express my sincere gratitude for the help and assistance you provided during last week.",
+            "references": [
+              "Thank you for your help last week.",
+              "Thanks for helping me last week."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.5438337326049805,
+            "compression_ratio": 0.6428571428571429,
+            "bloated": false
+          },
+          {
+            "index": 6,
+            "source": "Please do not hesitate to reach out to me if you have any questions or concerns regarding any of the matters that we discussed during our meeting yesterday.",
+            "output": "Please reach out to me if you have any questions or concerns regarding matters discussed during our meeting yesterday.",
+            "references": [
+              "Let me know if you have questions about yesterday's meeting.",
+              "Feel free to reach out with questions about what we discussed yesterday."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.56837797164917,
+            "compression_ratio": 0.6785714285714286,
+            "bloated": false
+          },
+          {
+            "index": 7,
+            "source": "It is important to note that the deadline for the submission of all required documents is Friday, March 15th, and no extensions will be granted under any circumstances.",
+            "output": "The deadline for submitting all required documents is Friday, March 15th. No extensions will be granted under any circumstances.",
+            "references": [
+              "All documents are due Friday, March 15th. No extensions.",
+              "The deadline is Friday, March 15th \u2014 no extensions."
+            ],
+            "gleu": 0.14025775160081475,
+            "meaning_preserved": 1.0,
+            "latency": 1.6616137027740479,
+            "compression_ratio": 0.6785714285714286,
+            "bloated": false
+          },
+          {
+            "index": 8,
+            "source": "The CEO made the announcement that the company would be implementing a new policy that would require all employees to return to the office on a full-time basis starting next month.",
+            "output": "The CEO announced the company will implement a new policy requiring all employees to return to the office full-time starting next month.",
+            "references": [
+              "The CEO announced a full-time return-to-office policy starting next month.",
+              "Starting next month, all employees must return to the office full-time per the CEO."
+            ],
+            "gleu": 0.21279882820441612,
+            "meaning_preserved": 1.0,
+            "latency": 1.574152946472168,
+            "compression_ratio": 0.7096774193548387,
+            "bloated": false
+          },
+          {
+            "index": 9,
+            "source": "Despite the fact that the initial prototype had a number of issues and problems, the engineering team was ultimately able to resolve them and deliver a working product.",
+            "output": "Despite initial issues, the engineering team resolved them and delivered a working product.",
+            "references": [
+              "Despite initial prototype issues, the engineering team delivered a working product.",
+              "The engineering team fixed the prototype's issues and delivered a working product."
+            ],
+            "gleu": 0.4250281413416978,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.4367928504943848,
+            "compression_ratio": 0.4642857142857143,
+            "bloated": false
+          },
+          {
+            "index": 10,
+            "source": "Let's meet tomorrow at 3pm.",
+            "output": "Let's meet tomorrow at 3pm.",
+            "references": [
+              "Let's meet tomorrow at 3pm."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.1726231575012207,
+            "compression_ratio": 1.0,
+            "bloated": false
+          },
+          {
+            "index": 11,
+            "source": "The API returns JSON.",
+            "output": "The API returns JSON.",
+            "references": [
+              "The API returns JSON."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.022679090499878,
+            "compression_ratio": 1.0,
+            "bloated": false
+          },
+          {
+            "index": 12,
+            "source": "Hey, I just wanted to let you know that I'm going to be running a little bit late to the thing tonight, probably like 15 minutes or so, sorry about that!",
+            "output": "Hey, I'm running a bit late to the event tonight, probably 15 minutes late. Sorry about that!",
+            "references": [
+              "Hey, running about 15 minutes late tonight, sorry!",
+              "I'll be ~15 min late tonight, sorry!"
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.6601738929748535,
+            "compression_ratio": 0.5483870967741935,
+            "bloated": false
+          },
+          {
+            "index": 13,
+            "source": "So basically what happened was that the server went down at around 2am and then it took the on-call engineer approximately three hours to get everything back up and running again.",
+            "output": "The server went down around 2am, and it took the on-call engineer approximately three hours to restore everything.",
+            "references": [
+              "The server went down around 2am and took the on-call engineer ~3 hours to restore.",
+              "Server went down at 2am; on-call took about 3 hours to fix it."
+            ],
+            "gleu": 0.37420316460821246,
+            "meaning_preserved": 1.0,
+            "latency": 1.7010087966918945,
+            "compression_ratio": 0.5806451612903226,
+            "bloated": false
+          },
+          {
+            "index": 14,
+            "source": "I think that it would be a really great idea if we could somehow find a way to automate this particular process so that we don't have to keep doing it manually every single time.",
+            "output": "I think it would be a great idea if we could find a way to automate this process so we don't have to do it manually every time.",
+            "references": [
+              "We should automate this process to avoid doing it manually.",
+              "Let's automate this \u2014 doing it manually every time is inefficient."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.8685591220855713,
+            "compression_ratio": 0.8,
+            "bloated": false
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "concise_v2_aggressive_trim",
+          "mode": "concise",
+          "temperature": 0.5,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.41243515728481667,
+          "avg_meaning": 0.9777777777777777,
+          "avg_latency": 1.1073753833770752,
+          "avg_compression": 0.5066506164086808,
+          "bloat_rate": 0.06666666666666667,
+          "composite": 0.6584020289295074
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I just wanted to reach out to you to let you know that I think we should probably schedule a meeting at some point in the near future to discuss the project.",
+            "output": "I want to schedule a meeting soon to discuss the project.",
+            "references": [
+              "Let's schedule a meeting to discuss the project.",
+              "We should meet soon to discuss the project."
+            ],
+            "gleu": 0.35084396956386854,
+            "meaning_preserved": 1.0,
+            "latency": 1.1143059730529785,
+            "compression_ratio": 0.34375,
+            "bloated": false
+          },
+          {
+            "index": 1,
+            "source": "Due to the fact that the weather conditions were extremely unfavorable, we made the decision to postpone the outdoor event until a later date.",
+            "output": "Weather conditions were unfavorable, so we postponed the outdoor event.",
+            "references": [
+              "We postponed the outdoor event due to bad weather.",
+              "Bad weather forced us to postpone the outdoor event."
+            ],
+            "gleu": 0.2626909894424158,
+            "meaning_preserved": 1.0,
+            "latency": 1.028007984161377,
+            "compression_ratio": 0.4166666666666667,
+            "bloated": false
+          },
+          {
+            "index": 2,
+            "source": "In my personal opinion, I believe that the new software update is going to be very beneficial for all of the users who are currently using the platform on a daily basis.",
+            "output": "The new software update will be beneficial for daily platform users.",
+            "references": [
+              "The new software update will benefit daily users.",
+              "I think the new update will help daily users."
+            ],
+            "gleu": 0.3816330911371337,
+            "meaning_preserved": 1.0,
+            "latency": 1.0850632190704346,
+            "compression_ratio": 0.34375,
+            "bloated": false
+          },
+          {
+            "index": 3,
+            "source": "At this point in time, we are currently in the process of evaluating and assessing all of the various different options that are available to us.",
+            "output": "We are evaluating all available options.",
+            "references": [
+              "We're evaluating our options.",
+              "We're currently assessing the available options."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.0741028785705566,
+            "compression_ratio": 0.23076923076923078,
+            "bloated": false
+          },
+          {
+            "index": 4,
+            "source": "The reason why the project was delayed was because the team did not have enough resources to complete it on time.",
+            "output": "The project was delayed due to insufficient resources.",
+            "references": [
+              "The project was delayed due to insufficient resources.",
+              "Lack of resources delayed the project."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.9893722534179688,
+            "compression_ratio": 0.38095238095238093,
+            "bloated": false
+          },
+          {
+            "index": 5,
+            "source": "I would like to take this opportunity to express my sincere gratitude for the help and assistance that you provided to me during the course of last week.",
+            "output": "I thank you for the help and assistance you provided last week.",
+            "references": [
+              "Thank you for your help last week.",
+              "Thanks for helping me last week."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2351570129394531,
+            "compression_ratio": 0.42857142857142855,
+            "bloated": false
+          },
+          {
+            "index": 6,
+            "source": "Please do not hesitate to reach out to me if you have any questions or concerns regarding any of the matters that we discussed during our meeting yesterday.",
+            "output": "Please contact me if you have questions or concerns about our meeting yesterday.",
+            "references": [
+              "Let me know if you have questions about yesterday's meeting.",
+              "Feel free to reach out with questions about what we discussed yesterday."
+            ],
+            "gleu": 0.21401603033752975,
+            "meaning_preserved": 1.0,
+            "latency": 1.1684458255767822,
+            "compression_ratio": 0.4642857142857143,
+            "bloated": false
+          },
+          {
+            "index": 7,
+            "source": "It is important to note that the deadline for the submission of all required documents is Friday, March 15th, and no extensions will be granted under any circumstances.",
+            "output": "Deadline for submitting all required documents is Friday, March 15th. No extensions will be granted.",
+            "references": [
+              "All documents are due Friday, March 15th. No extensions.",
+              "The deadline is Friday, March 15th \u2014 no extensions."
+            ],
+            "gleu": 0.18207052811092136,
+            "meaning_preserved": 1.0,
+            "latency": 1.3066651821136475,
+            "compression_ratio": 0.5357142857142857,
+            "bloated": false
+          },
+          {
+            "index": 8,
+            "source": "The CEO made the announcement that the company would be implementing a new policy that would require all employees to return to the office on a full-time basis starting next month.",
+            "output": "The CEO announced a new policy requiring all employees to return to the office full-time starting next month.",
+            "references": [
+              "The CEO announced a full-time return-to-office policy starting next month.",
+              "Starting next month, all employees must return to the office full-time per the CEO."
+            ],
+            "gleu": 0.26460159523593296,
+            "meaning_preserved": 1.0,
+            "latency": 1.2935469150543213,
+            "compression_ratio": 0.5806451612903226,
+            "bloated": false
+          },
+          {
+            "index": 9,
+            "source": "Despite the fact that the initial prototype had a number of issues and problems, the engineering team was ultimately able to resolve them and deliver a working product.",
+            "output": "The engineering team resolved the prototype's issues and delivered a working product.",
+            "references": [
+              "Despite initial prototype issues, the engineering team delivered a working product.",
+              "The engineering team fixed the prototype's issues and delivered a working product."
+            ],
+            "gleu": 0.7348889200874658,
+            "meaning_preserved": 1.0,
+            "latency": 1.152925968170166,
+            "compression_ratio": 0.42857142857142855,
+            "bloated": false
+          },
+          {
+            "index": 10,
+            "source": "Let's meet tomorrow at 3pm.",
+            "output": "Let's meet tomorrow at 3 pm.",
+            "references": [
+              "Let's meet tomorrow at 3pm."
+            ],
+            "gleu": 0.5081327481546147,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 0.8496270179748535,
+            "compression_ratio": 1.2,
+            "bloated": true
+          },
+          {
+            "index": 11,
+            "source": "The API returns JSON.",
+            "output": "The API returns JSON.",
+            "references": [
+              "The API returns JSON."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.7573318481445312,
+            "compression_ratio": 1.0,
+            "bloated": false
+          },
+          {
+            "index": 12,
+            "source": "Hey, I just wanted to let you know that I'm going to be running a little bit late to the thing tonight, probably like 15 minutes or so, sorry about that!",
+            "output": "I'll be running 15 minutes late to the event tonight. Sorry about that!",
+            "references": [
+              "Hey, running about 15 minutes late tonight, sorry!",
+              "I'll be ~15 min late tonight, sorry!"
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.1851251125335693,
+            "compression_ratio": 0.41935483870967744,
+            "bloated": false
+          },
+          {
+            "index": 13,
+            "source": "So basically what happened was that the server went down at around 2am and then it took the on-call engineer approximately three hours to get everything back up and running again.",
+            "output": "The server went down at 2am and took the on-call engineer three hours to restore.",
+            "references": [
+              "The server went down around 2am and took the on-call engineer ~3 hours to restore.",
+              "Server went down at 2am; on-call took about 3 hours to fix it."
+            ],
+            "gleu": 0.5773502691896258,
+            "meaning_preserved": 1.0,
+            "latency": 1.207993745803833,
+            "compression_ratio": 0.4838709677419355,
+            "bloated": false
+          },
+          {
+            "index": 14,
+            "source": "I think that it would be a really great idea if we could somehow find a way to automate this particular process so that we don't have to keep doing it manually every single time.",
+            "output": "We should automate this process to avoid doing it manually each time.",
+            "references": [
+              "We should automate this process to avoid doing it manually.",
+              "Let's automate this \u2014 doing it manually every time is inefficient."
+            ],
+            "gleu": 0.7102992180127422,
+            "meaning_preserved": 1.0,
+            "latency": 1.1629598140716553,
+            "compression_ratio": 0.34285714285714286,
+            "bloated": false
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "concise_v3_editor_hat",
+          "mode": "concise",
+          "temperature": 0.5,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.26578046007515976,
+          "avg_meaning": 0.9333333333333333,
+          "avg_latency": 1.3762170632680257,
+          "avg_compression": 0.5799749891685375,
+          "bloat_rate": 0.06666666666666667,
+          "composite": 0.57907497460532
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I just wanted to reach out to you to let you know that I think we should probably schedule a meeting at some point in the near future to discuss the project.",
+            "output": "I want to let you know we should schedule a meeting soon to discuss the project.",
+            "references": [
+              "Let's schedule a meeting to discuss the project.",
+              "We should meet soon to discuss the project."
+            ],
+            "gleu": 0.26332019392396333,
+            "meaning_preserved": 1.0,
+            "latency": 1.5475819110870361,
+            "compression_ratio": 0.5,
+            "bloated": false
+          },
+          {
+            "index": 1,
+            "source": "Due to the fact that the weather conditions were extremely unfavorable, we made the decision to postpone the outdoor event until a later date.",
+            "output": "The weather conditions were extremely unfavorable, so we postponed the outdoor event to a later date.",
+            "references": [
+              "We postponed the outdoor event due to bad weather.",
+              "Bad weather forced us to postpone the outdoor event."
+            ],
+            "gleu": 0.23961829057131984,
+            "meaning_preserved": 1.0,
+            "latency": 1.469444990158081,
+            "compression_ratio": 0.6666666666666666,
+            "bloated": false
+          },
+          {
+            "index": 2,
+            "source": "In my personal opinion, I believe that the new software update is going to be very beneficial for all of the users who are currently using the platform on a daily basis.",
+            "output": "The new software update will benefit all daily users of the platform.",
+            "references": [
+              "The new software update will benefit daily users.",
+              "I think the new update will help daily users."
+            ],
+            "gleu": 0.43361890903486755,
+            "meaning_preserved": 1.0,
+            "latency": 1.288543939590454,
+            "compression_ratio": 0.375,
+            "bloated": false
+          },
+          {
+            "index": 3,
+            "source": "At this point in time, we are currently in the process of evaluating and assessing all of the various different options that are available to us.",
+            "output": "We are evaluating all available options.",
+            "references": [
+              "We're evaluating our options.",
+              "We're currently assessing the available options."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.1660239696502686,
+            "compression_ratio": 0.23076923076923078,
+            "bloated": false
+          },
+          {
+            "index": 4,
+            "source": "The reason why the project was delayed was because the team did not have enough resources to complete it on time.",
+            "output": "The project was delayed because the team lacked sufficient resources to complete it on time.",
+            "references": [
+              "The project was delayed due to insufficient resources.",
+              "Lack of resources delayed the project."
+            ],
+            "gleu": 0.17395797375642236,
+            "meaning_preserved": 1.0,
+            "latency": 1.3185429573059082,
+            "compression_ratio": 0.7142857142857143,
+            "bloated": false
+          },
+          {
+            "index": 5,
+            "source": "I would like to take this opportunity to express my sincere gratitude for the help and assistance that you provided to me during the course of last week.",
+            "output": "Express sincere gratitude for the help and assistance you provided during last week.",
+            "references": [
+              "Thank you for your help last week.",
+              "Thanks for helping me last week."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.3599648475646973,
+            "compression_ratio": 0.4642857142857143,
+            "bloated": false
+          },
+          {
+            "index": 6,
+            "source": "Please do not hesitate to reach out to me if you have any questions or concerns regarding any of the matters that we discussed during our meeting yesterday.",
+            "output": "Please reach out if you have any questions or concerns about our meeting yesterday.",
+            "references": [
+              "Let me know if you have questions about yesterday's meeting.",
+              "Feel free to reach out with questions about what we discussed yesterday."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3376390933990479,
+            "compression_ratio": 0.5,
+            "bloated": false
+          },
+          {
+            "index": 7,
+            "source": "It is important to note that the deadline for the submission of all required documents is Friday, March 15th, and no extensions will be granted under any circumstances.",
+            "output": "The deadline for submitting all required documents is Friday, March 15th. No extensions will be granted.",
+            "references": [
+              "All documents are due Friday, March 15th. No extensions.",
+              "The deadline is Friday, March 15th \u2014 no extensions."
+            ],
+            "gleu": 0.16943571815930883,
+            "meaning_preserved": 1.0,
+            "latency": 1.5282182693481445,
+            "compression_ratio": 0.5714285714285714,
+            "bloated": false
+          },
+          {
+            "index": 8,
+            "source": "The CEO made the announcement that the company would be implementing a new policy that would require all employees to return to the office on a full-time basis starting next month.",
+            "output": "The CEO announced the company will implement a new policy requiring all employees to return to the office full-time starting next month.",
+            "references": [
+              "The CEO announced a full-time return-to-office policy starting next month.",
+              "Starting next month, all employees must return to the office full-time per the CEO."
+            ],
+            "gleu": 0.21279882820441612,
+            "meaning_preserved": 1.0,
+            "latency": 1.581470012664795,
+            "compression_ratio": 0.7096774193548387,
+            "bloated": false
+          },
+          {
+            "index": 9,
+            "source": "Despite the fact that the initial prototype had a number of issues and problems, the engineering team was ultimately able to resolve them and deliver a working product.",
+            "output": "The initial prototype had several issues, but the engineering team resolved them and delivered a working product.",
+            "references": [
+              "Despite initial prototype issues, the engineering team delivered a working product.",
+              "The engineering team fixed the prototype's issues and delivered a working product."
+            ],
+            "gleu": 0.2948993986902436,
+            "meaning_preserved": 1.0,
+            "latency": 1.4341309070587158,
+            "compression_ratio": 0.6071428571428571,
+            "bloated": false
+          },
+          {
+            "index": 10,
+            "source": "Let's meet tomorrow at 3pm.",
+            "output": "Let's meet tomorrow at 3 pm.",
+            "references": [
+              "Let's meet tomorrow at 3pm."
+            ],
+            "gleu": 0.5081327481546147,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.0240719318389893,
+            "compression_ratio": 1.2,
+            "bloated": true
+          },
+          {
+            "index": 11,
+            "source": "The API returns JSON.",
+            "output": "The API returns JSON.",
+            "references": [
+              "The API returns JSON."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.9369521141052246,
+            "compression_ratio": 1.0,
+            "bloated": false
+          },
+          {
+            "index": 12,
+            "source": "Hey, I just wanted to let you know that I'm going to be running a little bit late to the thing tonight, probably like 15 minutes or so, sorry about that!",
+            "output": "I'll be running late tonight, about 15 minutes. Sorry.",
+            "references": [
+              "Hey, running about 15 minutes late tonight, sorry!",
+              "I'll be ~15 min late tonight, sorry!"
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3478517532348633,
+            "compression_ratio": 0.2903225806451613,
+            "bloated": false
+          },
+          {
+            "index": 13,
+            "source": "So basically what happened was that the server went down at around 2am and then it took the on-call engineer approximately three hours to get everything back up and running again.",
+            "output": "The server went down at around 2am, and it took the on-call engineer approximately three hours to restore it.",
+            "references": [
+              "The server went down around 2am and took the on-call engineer ~3 hours to restore.",
+              "Server went down at 2am; on-call took about 3 hours to fix it."
+            ],
+            "gleu": 0.2915369229944523,
+            "meaning_preserved": 1.0,
+            "latency": 1.6038029193878174,
+            "compression_ratio": 0.6129032258064516,
+            "bloated": false
+          },
+          {
+            "index": 14,
+            "source": "I think that it would be a really great idea if we could somehow find a way to automate this particular process so that we don't have to keep doing it manually every single time.",
+            "output": "Automate this process to avoid manual repetition each time.",
+            "references": [
+              "We should automate this process to avoid doing it manually.",
+              "Let's automate this \u2014 doing it manually every time is inefficient."
+            ],
+            "gleu": 0.39938791763778786,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.6990163326263428,
+            "compression_ratio": 0.2571428571428571,
+            "bloated": false
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "concise_v4_minimal_diff",
+          "mode": "concise",
+          "temperature": 0.4,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.27371155863047253,
+          "avg_meaning": 0.9555555555555556,
+          "avg_latency": 1.0034414609273274,
+          "avg_compression": 0.6116737563511757,
+          "bloat_rate": 0.06666666666666667,
+          "composite": 0.578611340683789
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I just wanted to reach out to you to let you know that I think we should probably schedule a meeting at some point in the near future to discuss the project.",
+            "output": "I wanted to reach out to let you know we should schedule a meeting soon to discuss the project.",
+            "references": [
+              "Let's schedule a meeting to discuss the project.",
+              "We should meet soon to discuss the project."
+            ],
+            "gleu": 0.21797469124036953,
+            "meaning_preserved": 1.0,
+            "latency": 1.1976280212402344,
+            "compression_ratio": 0.59375,
+            "bloated": false
+          },
+          {
+            "index": 1,
+            "source": "Due to the fact that the weather conditions were extremely unfavorable, we made the decision to postpone the outdoor event until a later date.",
+            "output": "Because weather conditions were extremely unfavorable, we postponed the outdoor event to a later date.",
+            "references": [
+              "We postponed the outdoor event due to bad weather.",
+              "Bad weather forced us to postpone the outdoor event."
+            ],
+            "gleu": 0.25748661016289676,
+            "meaning_preserved": 1.0,
+            "latency": 1.030566692352295,
+            "compression_ratio": 0.625,
+            "bloated": false
+          },
+          {
+            "index": 2,
+            "source": "In my personal opinion, I believe that the new software update is going to be very beneficial for all of the users who are currently using the platform on a daily basis.",
+            "output": "I believe the new software update will be very beneficial for daily users.",
+            "references": [
+              "The new software update will benefit daily users.",
+              "I think the new update will help daily users."
+            ],
+            "gleu": 0.33260249505555045,
+            "meaning_preserved": 1.0,
+            "latency": 0.9617547988891602,
+            "compression_ratio": 0.40625,
+            "bloated": false
+          },
+          {
+            "index": 3,
+            "source": "At this point in time, we are currently in the process of evaluating and assessing all of the various different options that are available to us.",
+            "output": "We are currently evaluating all available options.",
+            "references": [
+              "We're evaluating our options.",
+              "We're currently assessing the available options."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.8081669807434082,
+            "compression_ratio": 0.2692307692307692,
+            "bloated": false
+          },
+          {
+            "index": 4,
+            "source": "The reason why the project was delayed was because the team did not have enough resources to complete it on time.",
+            "output": "The project was delayed because the team lacked sufficient resources to complete it on time.",
+            "references": [
+              "The project was delayed due to insufficient resources.",
+              "Lack of resources delayed the project."
+            ],
+            "gleu": 0.17395797375642236,
+            "meaning_preserved": 1.0,
+            "latency": 0.9795980453491211,
+            "compression_ratio": 0.7142857142857143,
+            "bloated": false
+          },
+          {
+            "index": 5,
+            "source": "I would like to take this opportunity to express my sincere gratitude for the help and assistance that you provided to me during the course of last week.",
+            "output": "I would like to express my sincere gratitude for the help and assistance you provided during last week.",
+            "references": [
+              "Thank you for your help last week.",
+              "Thanks for helping me last week."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.0635089874267578,
+            "compression_ratio": 0.6428571428571429,
+            "bloated": false
+          },
+          {
+            "index": 6,
+            "source": "Please do not hesitate to reach out to me if you have any questions or concerns regarding any of the matters that we discussed during our meeting yesterday.",
+            "output": "Please reach out if you have any questions or concerns about our meeting yesterday.",
+            "references": [
+              "Let me know if you have questions about yesterday's meeting.",
+              "Feel free to reach out with questions about what we discussed yesterday."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.995507001876831,
+            "compression_ratio": 0.5,
+            "bloated": false
+          },
+          {
+            "index": 7,
+            "source": "It is important to note that the deadline for the submission of all required documents is Friday, March 15th, and no extensions will be granted under any circumstances.",
+            "output": "The deadline for submitting all required documents is Friday, March 15th. No extensions will be granted.",
+            "references": [
+              "All documents are due Friday, March 15th. No extensions.",
+              "The deadline is Friday, March 15th \u2014 no extensions."
+            ],
+            "gleu": 0.16943571815930883,
+            "meaning_preserved": 1.0,
+            "latency": 1.1527221202850342,
+            "compression_ratio": 0.5714285714285714,
+            "bloated": false
+          },
+          {
+            "index": 8,
+            "source": "The CEO made the announcement that the company would be implementing a new policy that would require all employees to return to the office on a full-time basis starting next month.",
+            "output": "The CEO announced the company will implement a new policy requiring all employees to return to the office full-time starting next month.",
+            "references": [
+              "The CEO announced a full-time return-to-office policy starting next month.",
+              "Starting next month, all employees must return to the office full-time per the CEO."
+            ],
+            "gleu": 0.21279882820441612,
+            "meaning_preserved": 1.0,
+            "latency": 1.1820909976959229,
+            "compression_ratio": 0.7096774193548387,
+            "bloated": false
+          },
+          {
+            "index": 9,
+            "source": "Despite the fact that the initial prototype had a number of issues and problems, the engineering team was ultimately able to resolve them and deliver a working product.",
+            "output": "The engineering team resolved the initial prototype's issues and delivered a working product.",
+            "references": [
+              "Despite initial prototype issues, the engineering team delivered a working product.",
+              "The engineering team fixed the prototype's issues and delivered a working product."
+            ],
+            "gleu": 0.5923033072023248,
+            "meaning_preserved": 1.0,
+            "latency": 0.9548850059509277,
+            "compression_ratio": 0.4642857142857143,
+            "bloated": false
+          },
+          {
+            "index": 10,
+            "source": "Let's meet tomorrow at 3pm.",
+            "output": "Let's meet tomorrow at 3 pm.",
+            "references": [
+              "Let's meet tomorrow at 3pm."
+            ],
+            "gleu": 0.5081327481546147,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 0.8613171577453613,
+            "compression_ratio": 1.2,
+            "bloated": true
+          },
+          {
+            "index": 11,
+            "source": "The API returns JSON.",
+            "output": "The API returns JSON.",
+            "references": [
+              "The API returns JSON."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.5708129405975342,
+            "compression_ratio": 1.0,
+            "bloated": false
+          },
+          {
+            "index": 12,
+            "source": "Hey, I just wanted to let you know that I'm going to be running a little bit late to the thing tonight, probably like 15 minutes or so, sorry about that!",
+            "output": "I'll be running late tonight by about 15 minutes, sorry about that!",
+            "references": [
+              "Hey, running about 15 minutes late tonight, sorry!",
+              "I'll be ~15 min late tonight, sorry!"
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.0136561393737793,
+            "compression_ratio": 0.3870967741935484,
+            "bloated": false
+          },
+          {
+            "index": 13,
+            "source": "So basically what happened was that the server went down at around 2am and then it took the on-call engineer approximately three hours to get everything back up and running again.",
+            "output": "The server went down at 2am, and it took the on-call engineer three hours to restore it.",
+            "references": [
+              "The server went down around 2am and took the on-call engineer ~3 hours to restore.",
+              "Server went down at 2am; on-call took about 3 hours to fix it."
+            ],
+            "gleu": 0.3222538601891173,
+            "meaning_preserved": 1.0,
+            "latency": 1.175225019454956,
+            "compression_ratio": 0.5483870967741935,
+            "bloated": false
+          },
+          {
+            "index": 14,
+            "source": "I think that it would be a really great idea if we could somehow find a way to automate this particular process so that we don't have to keep doing it manually every single time.",
+            "output": "I think it would be great if we could automate this process to avoid doing it manually each time.",
+            "references": [
+              "We should automate this process to avoid doing it manually.",
+              "Let's automate this \u2014 doing it manually every time is inefficient."
+            ],
+            "gleu": 0.3187271473320672,
+            "meaning_preserved": 1.0,
+            "latency": 1.1041820049285889,
+            "compression_ratio": 0.5428571428571428,
+            "bloated": false
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "concise_v5_few_shot",
+          "mode": "concise",
+          "temperature": 0.4,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.39461427252098286,
+          "avg_meaning": 0.9555555555555556,
+          "avg_latency": 1.3375753879547119,
+          "avg_compression": 0.4955363050927567,
+          "bloat_rate": 0.0,
+          "composite": 0.6563900568951345
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I just wanted to reach out to you to let you know that I think we should probably schedule a meeting at some point in the near future to discuss the project.",
+            "output": "I think we should schedule a meeting soon to discuss the project.",
+            "references": [
+              "Let's schedule a meeting to discuss the project.",
+              "We should meet soon to discuss the project."
+            ],
+            "gleu": 0.3646285861936466,
+            "meaning_preserved": 1.0,
+            "latency": 1.3093748092651367,
+            "compression_ratio": 0.375,
+            "bloated": false
+          },
+          {
+            "index": 1,
+            "source": "Due to the fact that the weather conditions were extremely unfavorable, we made the decision to postpone the outdoor event until a later date.",
+            "output": "We postponed the outdoor event due to unfavorable weather.",
+            "references": [
+              "We postponed the outdoor event due to bad weather.",
+              "Bad weather forced us to postpone the outdoor event."
+            ],
+            "gleu": 0.7506238537503395,
+            "meaning_preserved": 1.0,
+            "latency": 1.2412290573120117,
+            "compression_ratio": 0.375,
+            "bloated": false
+          },
+          {
+            "index": 2,
+            "source": "In my personal opinion, I believe that the new software update is going to be very beneficial for all of the users who are currently using the platform on a daily basis.",
+            "output": "The new software update will be very beneficial for daily users.",
+            "references": [
+              "The new software update will benefit daily users.",
+              "I think the new update will help daily users."
+            ],
+            "gleu": 0.403527863746399,
+            "meaning_preserved": 1.0,
+            "latency": 1.3400650024414062,
+            "compression_ratio": 0.34375,
+            "bloated": false
+          },
+          {
+            "index": 3,
+            "source": "At this point in time, we are currently in the process of evaluating and assessing all of the various different options that are available to us.",
+            "output": "We are evaluating all available options.",
+            "references": [
+              "We're evaluating our options.",
+              "We're currently assessing the available options."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.258270263671875,
+            "compression_ratio": 0.23076923076923078,
+            "bloated": false
+          },
+          {
+            "index": 4,
+            "source": "The reason why the project was delayed was because the team did not have enough resources to complete it on time.",
+            "output": "The project was delayed because the team lacked sufficient resources to complete it on time.",
+            "references": [
+              "The project was delayed due to insufficient resources.",
+              "Lack of resources delayed the project."
+            ],
+            "gleu": 0.17395797375642236,
+            "meaning_preserved": 1.0,
+            "latency": 1.4535229206085205,
+            "compression_ratio": 0.7142857142857143,
+            "bloated": false
+          },
+          {
+            "index": 5,
+            "source": "I would like to take this opportunity to express my sincere gratitude for the help and assistance that you provided to me during the course of last week.",
+            "output": "I appreciate your help and assistance during last week.",
+            "references": [
+              "Thank you for your help last week.",
+              "Thanks for helping me last week."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.5947940349578857,
+            "compression_ratio": 0.32142857142857145,
+            "bloated": false
+          },
+          {
+            "index": 6,
+            "source": "Please do not hesitate to reach out to me if you have any questions or concerns regarding any of the matters that we discussed during our meeting yesterday.",
+            "output": "Please reach out if you have any questions or concerns about our meeting yesterday.",
+            "references": [
+              "Let me know if you have questions about yesterday's meeting.",
+              "Feel free to reach out with questions about what we discussed yesterday."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.4168541431427002,
+            "compression_ratio": 0.5,
+            "bloated": false
+          },
+          {
+            "index": 7,
+            "source": "It is important to note that the deadline for the submission of all required documents is Friday, March 15th, and no extensions will be granted under any circumstances.",
+            "output": "The deadline for submitting all required documents is Friday, March 15th, with no extensions.",
+            "references": [
+              "All documents are due Friday, March 15th. No extensions.",
+              "The deadline is Friday, March 15th \u2014 no extensions."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.4609663486480713,
+            "compression_ratio": 0.5,
+            "bloated": false
+          },
+          {
+            "index": 8,
+            "source": "The CEO made the announcement that the company would be implementing a new policy that would require all employees to return to the office on a full-time basis starting next month.",
+            "output": "The CEO announced a new policy requiring all employees to return to the office full-time starting next month.",
+            "references": [
+              "The CEO announced a full-time return-to-office policy starting next month.",
+              "Starting next month, all employees must return to the office full-time per the CEO."
+            ],
+            "gleu": 0.26460159523593296,
+            "meaning_preserved": 1.0,
+            "latency": 1.4304330348968506,
+            "compression_ratio": 0.5806451612903226,
+            "bloated": false
+          },
+          {
+            "index": 9,
+            "source": "Despite the fact that the initial prototype had a number of issues and problems, the engineering team was ultimately able to resolve them and deliver a working product.",
+            "output": "The engineering team resolved the prototype's issues and delivered a working product.",
+            "references": [
+              "Despite initial prototype issues, the engineering team delivered a working product.",
+              "The engineering team fixed the prototype's issues and delivered a working product."
+            ],
+            "gleu": 0.7348889200874658,
+            "meaning_preserved": 1.0,
+            "latency": 1.4049851894378662,
+            "compression_ratio": 0.42857142857142855,
+            "bloated": false
+          },
+          {
+            "index": 10,
+            "source": "Let's meet tomorrow at 3pm.",
+            "output": "Let's meet tomorrow at 3pm.",
+            "references": [
+              "Let's meet tomorrow at 3pm."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.9798629283905029,
+            "compression_ratio": 1.0,
+            "bloated": false
+          },
+          {
+            "index": 11,
+            "source": "The API returns JSON.",
+            "output": "The API returns JSON.",
+            "references": [
+              "The API returns JSON."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.90299391746521,
+            "compression_ratio": 1.0,
+            "bloated": false
+          },
+          {
+            "index": 12,
+            "source": "Hey, I just wanted to let you know that I'm going to be running a little bit late to the thing tonight, probably like 15 minutes or so, sorry about that!",
+            "output": "I'll be running late tonight by about 15 minutes. Sorry!",
+            "references": [
+              "Hey, running about 15 minutes late tonight, sorry!",
+              "I'll be ~15 min late tonight, sorry!"
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2279908657073975,
+            "compression_ratio": 0.3225806451612903,
+            "bloated": false
+          },
+          {
+            "index": 13,
+            "source": "So basically what happened was that the server went down at around 2am and then it took the on-call engineer approximately three hours to get everything back up and running again.",
+            "output": "The server went down at 2am and took the on-call engineer three hours to restore.",
+            "references": [
+              "The server went down around 2am and took the on-call engineer ~3 hours to restore.",
+              "Server went down at 2am; on-call took about 3 hours to fix it."
+            ],
+            "gleu": 0.5773502691896258,
+            "meaning_preserved": 1.0,
+            "latency": 1.5051522254943848,
+            "compression_ratio": 0.4838709677419355,
+            "bloated": false
+          },
+          {
+            "index": 14,
+            "source": "I think that it would be a really great idea if we could somehow find a way to automate this particular process so that we don't have to keep doing it manually every single time.",
+            "output": "We should automate this process to avoid manual repetition.",
+            "references": [
+              "We should automate this process to avoid doing it manually.",
+              "Let's automate this \u2014 doing it manually every time is inefficient."
+            ],
+            "gleu": 0.6496350258549114,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.5371360778808594,
+            "compression_ratio": 0.2571428571428571,
+            "bloated": false
+          }
+        ]
+      }
+    ],
+    "casual": [
+      {
+        "metrics": {
+          "variant": "casual_v1_production",
+          "mode": "casual",
+          "temperature": 0.7,
+          "total_samples": 14,
+          "errors": 0,
+          "avg_gleu": 0.2767241353809982,
+          "avg_meaning": 1.0,
+          "avg_latency": 1.5922949143818446,
+          "avg_informality": 0.1597054206297904,
+          "stability": 0.5,
+          "composite": 0.48092886680323654
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I would like to inform you that the meeting has been rescheduled to Thursday at 2:00 PM.",
+            "output": "I wanted to let you know the meeting has been moved to Thursday at 2:00 PM.",
+            "references": [
+              "Hey, just a heads up \u2014 the meeting's been moved to Thursday at 2 PM.",
+              "FYI, the meeting got pushed to Thursday at 2 PM."
+            ],
+            "gleu": 0.2490328638846773,
+            "meaning_preserved": 1.0,
+            "latency": 1.6415278911590576,
+            "informality_score": 0.0
+          },
+          {
+            "index": 1,
+            "source": "We regret to inform you that your request has been denied due to insufficient documentation.",
+            "output": "We\u2019re sorry to let you know your request was denied because there wasn\u2019t enough documentation.",
+            "references": [
+              "Sorry, your request was denied \u2014 looks like some documents were missing.",
+              "Unfortunately, your request got denied because of missing documentation."
+            ],
+            "gleu": 0.16451929399933107,
+            "meaning_preserved": 1.0,
+            "latency": 1.3387291431427002,
+            "informality_score": 0.0
+          },
+          {
+            "index": 2,
+            "source": "Please ensure that all deliverables are submitted prior to the established deadline.",
+            "output": "Make sure all deliverables are submitted before the deadline.",
+            "references": [
+              "Make sure to get everything in before the deadline!",
+              "Don't forget to submit everything before the deadline."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.164247989654541,
+            "informality_score": 0.1
+          },
+          {
+            "index": 3,
+            "source": "The quarterly financial results exceeded expectations, with revenue increasing by 15% year-over-year.",
+            "output": "The quarterly financial results beat expectations, with revenue up 15% year-over-year.",
+            "references": [
+              "Great news \u2014 quarterly revenue is up 15% compared to last year!",
+              "The quarterly numbers came in strong, with revenue up 15% year-over-year."
+            ],
+            "gleu": 0.403527863746399,
+            "meaning_preserved": 1.0,
+            "latency": 1.4636971950531006,
+            "informality_score": 0.1
+          },
+          {
+            "index": 4,
+            "source": "It has come to my attention that several team members have not completed the mandatory training modules.",
+            "output": "I noticed that a few team members haven't finished the required training modules.",
+            "references": [
+              "Hey, looks like some folks on the team still haven't done the required training.",
+              "Just noticed a few team members haven't finished the mandatory training yet."
+            ],
+            "gleu": 0.5008718428920987,
+            "meaning_preserved": 1.0,
+            "latency": 1.4064600467681885,
+            "informality_score": 0.38461538461538464
+          },
+          {
+            "index": 5,
+            "source": "I am writing to express my interest in the software engineering position that was recently posted on your website.",
+            "output": "I'm writing to express my interest in the software engineering position you recently posted on your website.",
+            "references": [
+              "I'm interested in the software engineering role you posted on your site!",
+              "I saw the software engineering job on your website and I'd love to apply."
+            ],
+            "gleu": 0.2204887282071633,
+            "meaning_preserved": 1.0,
+            "latency": 2.136108160018921,
+            "informality_score": 0.29411764705882354
+          },
+          {
+            "index": 6,
+            "source": "Pursuant to our previous discussion, I have attached the revised proposal for your review and consideration.",
+            "output": "As we discussed before, I've attached the revised proposal for your review and consideration.",
+            "references": [
+              "As we talked about, here's the updated proposal \u2014 let me know what you think!",
+              "Following up on our chat, I've attached the revised proposal. Take a look!"
+            ],
+            "gleu": 0.1777835117834348,
+            "meaning_preserved": 1.0,
+            "latency": 1.6510493755340576,
+            "informality_score": 0.3571428571428571
+          },
+          {
+            "index": 7,
+            "source": "The implementation of the new system will commence on Monday and is expected to be completed within a two-week timeframe.",
+            "output": "The new system will start being implemented on Monday and is expected to be finished within two weeks.",
+            "references": [
+              "We're kicking off the new system on Monday \u2014 should take about two weeks.",
+              "The new system rollout starts Monday and should be done in about two weeks."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.768036127090454,
+            "informality_score": 0.1
+          },
+          {
+            "index": 8,
+            "source": "Hey, wanna grab lunch tomorrow?",
+            "output": "Hey, wanna grab lunch tomorrow?",
+            "references": [
+              "Hey, wanna grab lunch tomorrow?",
+              "Hey, want to grab lunch tomorrow?"
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2221119403839111,
+            "informality_score": 0.30000000000000004,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "That movie was awesome, you should totally check it out!",
+            "output": "That movie was awesome\u2014you should totally check it out!",
+            "references": [
+              "That movie was awesome, you should totally check it out!"
+            ],
+            "gleu": 0.5341735956899847,
+            "meaning_preserved": 1.0,
+            "latency": 1.3187098503112793,
+            "informality_score": 0.5,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 10,
+            "source": "The function accepts an integer parameter and returns a boolean value indicating whether the input is a prime number.",
+            "output": "The function takes an integer as input and returns a boolean indicating if the number is a prime.",
+            "references": [
+              "This function takes an integer and returns whether it's prime.",
+              "You pass it an integer and it tells you if it's prime or not."
+            ],
+            "gleu": 0.1661742929957894,
+            "meaning_preserved": 1.0,
+            "latency": 1.5078887939453125,
+            "informality_score": 0.0
+          },
+          {
+            "index": 11,
+            "source": "Dear Mr. Johnson, I am writing to follow up on the invoice that was sent on January 15th. As of today, payment has not been received. Could you please provide an update on the expected payment date?",
+            "output": "Dear Mr. Johnson, I\u2019m following up on the invoice sent on January 15th. As of today, we haven\u2019t received payment yet. Could you let us know when you expect to make the payment?",
+            "references": [
+              "Hi Mr. Johnson, just following up on the invoice from January 15th \u2014 we haven't received payment yet. Any idea when it'll go through?",
+              "Hey Mr. Johnson, quick follow-up on the Jan 15th invoice. We haven't gotten payment yet \u2014 do you know when to expect it?"
+            ],
+            "gleu": 0.16500462906194566,
+            "meaning_preserved": 1.0,
+            "latency": 2.2946200370788574,
+            "informality_score": 0.1
+          },
+          {
+            "index": 12,
+            "source": "All personnel are required to vacate the premises by 6:00 PM due to scheduled maintenance of the HVAC system.",
+            "output": "All staff need to leave the building by 6:00 PM because of scheduled HVAC maintenance.",
+            "references": [
+              "Everyone needs to leave the building by 6 PM \u2014 they're doing HVAC maintenance.",
+              "Heads up, building closes at 6 PM tonight for HVAC work."
+            ],
+            "gleu": 0.29256127307315066,
+            "meaning_preserved": 1.0,
+            "latency": 1.8570921421051025,
+            "informality_score": 0.0
+          },
+          {
+            "index": 13,
+            "source": "The committee has determined that additional research is necessary before a final decision can be rendered.",
+            "output": "The committee has decided that more research is needed before making a final decision.",
+            "references": [
+              "The committee needs more research before making a decision.",
+              "They decided they need to do more research before deciding."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.5218501091003418,
+            "informality_score": 0.0
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "casual_v2_friend_voice",
+          "mode": "casual",
+          "temperature": 0.7,
+          "total_samples": 14,
+          "errors": 0,
+          "avg_gleu": 0.3630412758178275,
+          "avg_meaning": 1.0,
+          "avg_latency": 1.3547493049076624,
+          "avg_informality": 0.2696588756960274,
+          "stability": 0.5,
+          "composite": 0.5398100454541565
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I would like to inform you that the meeting has been rescheduled to Thursday at 2:00 PM.",
+            "output": "I just wanted to let you know the meeting is rescheduled to Thursday at 2:00 PM.",
+            "references": [
+              "Hey, just a heads up \u2014 the meeting's been moved to Thursday at 2 PM.",
+              "FYI, the meeting got pushed to Thursday at 2 PM."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.4830341339111328,
+            "informality_score": 0.1
+          },
+          {
+            "index": 1,
+            "source": "We regret to inform you that your request has been denied due to insufficient documentation.",
+            "output": "Sorry to say, but your request got denied because there wasn't enough documentation.",
+            "references": [
+              "Sorry, your request was denied \u2014 looks like some documents were missing.",
+              "Unfortunately, your request got denied because of missing documentation."
+            ],
+            "gleu": 0.3026643726685863,
+            "meaning_preserved": 1.0,
+            "latency": 1.2463171482086182,
+            "informality_score": 0.38461538461538464
+          },
+          {
+            "index": 2,
+            "source": "Please ensure that all deliverables are submitted prior to the established deadline.",
+            "output": "Make sure all your deliverables are submitted before the deadline.",
+            "references": [
+              "Make sure to get everything in before the deadline!",
+              "Don't forget to submit everything before the deadline."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.1380438804626465,
+            "informality_score": 0.1
+          },
+          {
+            "index": 3,
+            "source": "The quarterly financial results exceeded expectations, with revenue increasing by 15% year-over-year.",
+            "output": "The quarterly results were better than expected, with revenue up 15% year-over-year.",
+            "references": [
+              "Great news \u2014 quarterly revenue is up 15% compared to last year!",
+              "The quarterly numbers came in strong, with revenue up 15% year-over-year."
+            ],
+            "gleu": 0.3646285861936466,
+            "meaning_preserved": 1.0,
+            "latency": 1.347226858139038,
+            "informality_score": 0.0
+          },
+          {
+            "index": 4,
+            "source": "It has come to my attention that several team members have not completed the mandatory training modules.",
+            "output": "A few team members haven't finished the mandatory training modules. Let me know if you need help with anything!",
+            "references": [
+              "Hey, looks like some folks on the team still haven't done the required training.",
+              "Just noticed a few team members haven't finished the mandatory training yet."
+            ],
+            "gleu": 0.42461633178803443,
+            "meaning_preserved": 1.0,
+            "latency": 1.4486680030822754,
+            "informality_score": 0.6631578947368421
+          },
+          {
+            "index": 5,
+            "source": "I am writing to express my interest in the software engineering position that was recently posted on your website.",
+            "output": "I\u2019m writing to let you know I\u2019m interested in the software engineering position you posted on your website.",
+            "references": [
+              "I'm interested in the software engineering role you posted on your site!",
+              "I saw the software engineering job on your website and I'd love to apply."
+            ],
+            "gleu": 0.3368020956312902,
+            "meaning_preserved": 1.0,
+            "latency": 1.4691357612609863,
+            "informality_score": 0.0
+          },
+          {
+            "index": 6,
+            "source": "Pursuant to our previous discussion, I have attached the revised proposal for your review and consideration.",
+            "output": "I attached the revised proposal for you to review and consider\u2014let me know what you think!",
+            "references": [
+              "As we talked about, here's the updated proposal \u2014 let me know what you think!",
+              "Following up on our chat, I've attached the revised proposal. Take a look!"
+            ],
+            "gleu": 0.2490328638846773,
+            "meaning_preserved": 1.0,
+            "latency": 1.3323860168457031,
+            "informality_score": 0.4
+          },
+          {
+            "index": 7,
+            "source": "The implementation of the new system will commence on Monday and is expected to be completed within a two-week timeframe.",
+            "output": "The new system will start on Monday and should be done within two weeks.",
+            "references": [
+              "We're kicking off the new system on Monday \u2014 should take about two weeks.",
+              "The new system rollout starts Monday and should be done in about two weeks."
+            ],
+            "gleu": 0.39073802494525,
+            "meaning_preserved": 1.0,
+            "latency": 1.224858283996582,
+            "informality_score": 0.1
+          },
+          {
+            "index": 8,
+            "source": "Hey, wanna grab lunch tomorrow?",
+            "output": "Hey, wanna grab lunch tomorrow?",
+            "references": [
+              "Hey, wanna grab lunch tomorrow?",
+              "Hey, want to grab lunch tomorrow?"
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.9845302104949951,
+            "informality_score": 0.30000000000000004,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "That movie was awesome, you should totally check it out!",
+            "output": "That movie was awesome\u2014you should totally check it out!",
+            "references": [
+              "That movie was awesome, you should totally check it out!"
+            ],
+            "gleu": 0.5341735956899847,
+            "meaning_preserved": 1.0,
+            "latency": 1.0660159587860107,
+            "informality_score": 0.5,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 10,
+            "source": "The function accepts an integer parameter and returns a boolean value indicating whether the input is a prime number.",
+            "output": "The function takes an integer and returns a boolean telling if it's a prime number.",
+            "references": [
+              "This function takes an integer and returns whether it's prime.",
+              "You pass it an integer and it tells you if it's prime or not."
+            ],
+            "gleu": 0.33649324423301513,
+            "meaning_preserved": 1.0,
+            "latency": 1.2496488094329834,
+            "informality_score": 0.3333333333333333
+          },
+          {
+            "index": 11,
+            "source": "Dear Mr. Johnson, I am writing to follow up on the invoice that was sent on January 15th. As of today, payment has not been received. Could you please provide an update on the expected payment date?",
+            "output": "Hey Mr. Johnson,  \n\nI\u2019m just following up on the invoice from January 15th. As of today, I haven\u2019t received payment yet. Could you let me know when you expect it to come through?  \n\nThanks!",
+            "references": [
+              "Hi Mr. Johnson, just following up on the invoice from January 15th \u2014 we haven't received payment yet. Any idea when it'll go through?",
+              "Hey Mr. Johnson, quick follow-up on the Jan 15th invoice. We haven't gotten payment yet \u2014 do you know when to expect it?"
+            ],
+            "gleu": 0.2620678185090731,
+            "meaning_preserved": 1.0,
+            "latency": 2.4413399696350098,
+            "informality_score": 0.5
+          },
+          {
+            "index": 12,
+            "source": "All personnel are required to vacate the premises by 6:00 PM due to scheduled maintenance of the HVAC system.",
+            "output": "Everyone needs to leave the building by 6 PM because we're doing maintenance on the HVAC system.",
+            "references": [
+              "Everyone needs to leave the building by 6 PM \u2014 they're doing HVAC maintenance.",
+              "Heads up, building closes at 6 PM tonight for HVAC work."
+            ],
+            "gleu": 0.5043545474510804,
+            "meaning_preserved": 1.0,
+            "latency": 1.3355822563171387,
+            "informality_score": 0.29411764705882354
+          },
+          {
+            "index": 13,
+            "source": "The committee has determined that additional research is necessary before a final decision can be rendered.",
+            "output": "The committee figured they need more research before making a final decision.",
+            "references": [
+              "The committee needs more research before making a decision.",
+              "They decided they need to do more research before deciding."
+            ],
+            "gleu": 0.37700638045494705,
+            "meaning_preserved": 1.0,
+            "latency": 1.1997029781341553,
+            "informality_score": 0.1
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "casual_v3_tone_shift",
+          "mode": "casual",
+          "temperature": 0.7,
+          "total_samples": 14,
+          "errors": 0,
+          "avg_gleu": 0.3343830097313097,
+          "avg_meaning": 0.9642857142857143,
+          "avg_latency": 1.6125237601143974,
+          "avg_informality": 0.22339976200270323,
+          "stability": 0.5,
+          "composite": 0.5066205458059182
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I would like to inform you that the meeting has been rescheduled to Thursday at 2:00 PM.",
+            "output": "I wanted to let you know the meeting is rescheduled for Thursday at 2 PM.",
+            "references": [
+              "Hey, just a heads up \u2014 the meeting's been moved to Thursday at 2 PM.",
+              "FYI, the meeting got pushed to Thursday at 2 PM."
+            ],
+            "gleu": 0.20333448190047887,
+            "meaning_preserved": 1.0,
+            "latency": 1.6506397724151611,
+            "informality_score": 0.0
+          },
+          {
+            "index": 1,
+            "source": "We regret to inform you that your request has been denied due to insufficient documentation.",
+            "output": "We\u2019re sorry to say your request was denied because there wasn\u2019t enough documentation.",
+            "references": [
+              "Sorry, your request was denied \u2014 looks like some documents were missing.",
+              "Unfortunately, your request got denied because of missing documentation."
+            ],
+            "gleu": 0.19338531381761725,
+            "meaning_preserved": 1.0,
+            "latency": 1.6494131088256836,
+            "informality_score": 0.0
+          },
+          {
+            "index": 2,
+            "source": "Please ensure that all deliverables are submitted prior to the established deadline.",
+            "output": "Make sure all your work is in before the deadline.",
+            "references": [
+              "Make sure to get everything in before the deadline!",
+              "Don't forget to submit everything before the deadline."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.5,
+            "latency": 1.4981560707092285,
+            "informality_score": 0.1
+          },
+          {
+            "index": 3,
+            "source": "The quarterly financial results exceeded expectations, with revenue increasing by 15% year-over-year.",
+            "output": "The quarterly financial results were better than expected, with revenue up 15% year-over-year.",
+            "references": [
+              "Great news \u2014 quarterly revenue is up 15% compared to last year!",
+              "The quarterly numbers came in strong, with revenue up 15% year-over-year."
+            ],
+            "gleu": 0.33260249505555045,
+            "meaning_preserved": 1.0,
+            "latency": 1.6639080047607422,
+            "informality_score": 0.0
+          },
+          {
+            "index": 4,
+            "source": "It has come to my attention that several team members have not completed the mandatory training modules.",
+            "output": "I noticed that a few team members haven't finished the required training modules.",
+            "references": [
+              "Hey, looks like some folks on the team still haven't done the required training.",
+              "Just noticed a few team members haven't finished the mandatory training yet."
+            ],
+            "gleu": 0.5008718428920987,
+            "meaning_preserved": 1.0,
+            "latency": 1.5461208820343018,
+            "informality_score": 0.38461538461538464
+          },
+          {
+            "index": 5,
+            "source": "I am writing to express my interest in the software engineering position that was recently posted on your website.",
+            "output": "I'm writing to let you know I'm interested in the software engineering position you posted on your website.",
+            "references": [
+              "I'm interested in the software engineering role you posted on your site!",
+              "I saw the software engineering job on your website and I'd love to apply."
+            ],
+            "gleu": 0.4021074690812006,
+            "meaning_preserved": 1.0,
+            "latency": 1.6439011096954346,
+            "informality_score": 0.4
+          },
+          {
+            "index": 6,
+            "source": "Pursuant to our previous discussion, I have attached the revised proposal for your review and consideration.",
+            "output": "As we talked about before, I've attached the revised proposal for you to check out.",
+            "references": [
+              "As we talked about, here's the updated proposal \u2014 let me know what you think!",
+              "Following up on our chat, I've attached the revised proposal. Take a look!"
+            ],
+            "gleu": 0.16451929399933107,
+            "meaning_preserved": 1.0,
+            "latency": 1.6082608699798584,
+            "informality_score": 0.3333333333333333
+          },
+          {
+            "index": 7,
+            "source": "The implementation of the new system will commence on Monday and is expected to be completed within a two-week timeframe.",
+            "output": "The new system will start on Monday and should be done within two weeks.",
+            "references": [
+              "We're kicking off the new system on Monday \u2014 should take about two weeks.",
+              "The new system rollout starts Monday and should be done in about two weeks."
+            ],
+            "gleu": 0.39073802494525,
+            "meaning_preserved": 1.0,
+            "latency": 1.5791971683502197,
+            "informality_score": 0.1
+          },
+          {
+            "index": 8,
+            "source": "Hey, wanna grab lunch tomorrow?",
+            "output": "Hey, wanna grab lunch tomorrow?",
+            "references": [
+              "Hey, wanna grab lunch tomorrow?",
+              "Hey, want to grab lunch tomorrow?"
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2016072273254395,
+            "informality_score": 0.30000000000000004,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "That movie was awesome, you should totally check it out!",
+            "output": "That movie was awesome\u2014you should totally check it out!",
+            "references": [
+              "That movie was awesome, you should totally check it out!"
+            ],
+            "gleu": 0.5341735956899847,
+            "meaning_preserved": 1.0,
+            "latency": 1.2489418983459473,
+            "informality_score": 0.5,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 10,
+            "source": "The function accepts an integer parameter and returns a boolean value indicating whether the input is a prime number.",
+            "output": "The function takes an integer and returns a boolean to show if it's a prime number.",
+            "references": [
+              "This function takes an integer and returns whether it's prime.",
+              "You pass it an integer and it tells you if it's prime or not."
+            ],
+            "gleu": 0.31314224813827346,
+            "meaning_preserved": 1.0,
+            "latency": 1.6321830749511719,
+            "informality_score": 0.3125
+          },
+          {
+            "index": 11,
+            "source": "Dear Mr. Johnson, I am writing to follow up on the invoice that was sent on January 15th. As of today, payment has not been received. Could you please provide an update on the expected payment date?",
+            "output": "Dear Mr. Johnson, I'm writing to follow up on the invoice from January 15th. As of today, we haven't received payment yet. Could you let us know when you expect to send it?",
+            "references": [
+              "Hi Mr. Johnson, just following up on the invoice from January 15th \u2014 we haven't received payment yet. Any idea when it'll go through?",
+              "Hey Mr. Johnson, quick follow-up on the Jan 15th invoice. We haven't gotten payment yet \u2014 do you know when to expect it?"
+            ],
+            "gleu": 0.2657738840739192,
+            "meaning_preserved": 1.0,
+            "latency": 2.394355058670044,
+            "informality_score": 0.40303030303030307
+          },
+          {
+            "index": 12,
+            "source": "All personnel are required to vacate the premises by 6:00 PM due to scheduled maintenance of the HVAC system.",
+            "output": "Everyone needs to leave the building by 6:00 PM because we're doing maintenance on the HVAC system.",
+            "references": [
+              "Everyone needs to leave the building by 6 PM \u2014 they're doing HVAC maintenance.",
+              "Heads up, building closes at 6 PM tonight for HVAC work."
+            ],
+            "gleu": 0.3807134866446316,
+            "meaning_preserved": 1.0,
+            "latency": 1.7606582641601562,
+            "informality_score": 0.29411764705882354
+          },
+          {
+            "index": 13,
+            "source": "The committee has determined that additional research is necessary before a final decision can be rendered.",
+            "output": "The committee figured more research is needed before making a final decision.",
+            "references": [
+              "The committee needs more research before making a decision.",
+              "They decided they need to do more research before deciding."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.4979901313781738,
+            "informality_score": 0.0
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "casual_v4_minimal_rewrite",
+          "mode": "casual",
+          "temperature": 0.6,
+          "total_samples": 14,
+          "errors": 0,
+          "avg_gleu": 0.3519995310525363,
+          "avg_meaning": 0.9404761904761906,
+          "avg_latency": 1.1971768651689803,
+          "avg_informality": 0.19652014652014654,
+          "stability": 0.5,
+          "composite": 0.496698760414662
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I would like to inform you that the meeting has been rescheduled to Thursday at 2:00 PM.",
+            "output": "I wanted to let you know the meeting is now rescheduled for Thursday at 2:00 PM.",
+            "references": [
+              "Hey, just a heads up \u2014 the meeting's been moved to Thursday at 2 PM.",
+              "FYI, the meeting got pushed to Thursday at 2 PM."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3296339511871338,
+            "informality_score": 0.0
+          },
+          {
+            "index": 1,
+            "source": "We regret to inform you that your request has been denied due to insufficient documentation.",
+            "output": "We\u2019re sorry to say your request was denied because there wasn\u2019t enough documentation.",
+            "references": [
+              "Sorry, your request was denied \u2014 looks like some documents were missing.",
+              "Unfortunately, your request got denied because of missing documentation."
+            ],
+            "gleu": 0.19338531381761725,
+            "meaning_preserved": 1.0,
+            "latency": 1.1680188179016113,
+            "informality_score": 0.0
+          },
+          {
+            "index": 2,
+            "source": "Please ensure that all deliverables are submitted prior to the established deadline.",
+            "output": "Make sure all your deliverables are in by the deadline.",
+            "references": [
+              "Make sure to get everything in before the deadline!",
+              "Don't forget to submit everything before the deadline."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.5,
+            "latency": 1.040095329284668,
+            "informality_score": 0.1
+          },
+          {
+            "index": 3,
+            "source": "The quarterly financial results exceeded expectations, with revenue increasing by 15% year-over-year.",
+            "output": "The quarterly results beat expectations, with revenue up 15% year-over-year.",
+            "references": [
+              "Great news \u2014 quarterly revenue is up 15% compared to last year!",
+              "The quarterly numbers came in strong, with revenue up 15% year-over-year."
+            ],
+            "gleu": 0.4088064519392259,
+            "meaning_preserved": 1.0,
+            "latency": 1.3269131183624268,
+            "informality_score": 0.1
+          },
+          {
+            "index": 4,
+            "source": "It has come to my attention that several team members have not completed the mandatory training modules.",
+            "output": "I noticed that a few team members haven't finished the required training modules.",
+            "references": [
+              "Hey, looks like some folks on the team still haven't done the required training.",
+              "Just noticed a few team members haven't finished the mandatory training yet."
+            ],
+            "gleu": 0.5008718428920987,
+            "meaning_preserved": 1.0,
+            "latency": 1.1323513984680176,
+            "informality_score": 0.38461538461538464
+          },
+          {
+            "index": 5,
+            "source": "I am writing to express my interest in the software engineering position that was recently posted on your website.",
+            "output": "I'm writing to let you know I'm interested in the software engineering job you posted on your website.",
+            "references": [
+              "I'm interested in the software engineering role you posted on your site!",
+              "I saw the software engineering job on your website and I'd love to apply."
+            ],
+            "gleu": 0.4021074690812006,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.2843081951141357,
+            "informality_score": 0.4
+          },
+          {
+            "index": 6,
+            "source": "Pursuant to our previous discussion, I have attached the revised proposal for your review and consideration.",
+            "output": "As per our previous talk, I've attached the revised proposal for your review and consideration.",
+            "references": [
+              "As we talked about, here's the updated proposal \u2014 let me know what you think!",
+              "Following up on our chat, I've attached the revised proposal. Take a look!"
+            ],
+            "gleu": 0.17395797375642236,
+            "meaning_preserved": 1.0,
+            "latency": 1.1840260028839111,
+            "informality_score": 0.3333333333333333
+          },
+          {
+            "index": 7,
+            "source": "The implementation of the new system will commence on Monday and is expected to be completed within a two-week timeframe.",
+            "output": "The new system will start on Monday and should be done within two weeks.",
+            "references": [
+              "We're kicking off the new system on Monday \u2014 should take about two weeks.",
+              "The new system rollout starts Monday and should be done in about two weeks."
+            ],
+            "gleu": 0.39073802494525,
+            "meaning_preserved": 1.0,
+            "latency": 1.124464750289917,
+            "informality_score": 0.1
+          },
+          {
+            "index": 8,
+            "source": "Hey, wanna grab lunch tomorrow?",
+            "output": "Hey, wanna grab lunch tomorrow?",
+            "references": [
+              "Hey, wanna grab lunch tomorrow?",
+              "Hey, want to grab lunch tomorrow?"
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.7860000133514404,
+            "informality_score": 0.30000000000000004,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "That movie was awesome, you should totally check it out!",
+            "output": "That movie was awesome\u2014you should totally check it out!",
+            "references": [
+              "That movie was awesome, you should totally check it out!"
+            ],
+            "gleu": 0.5341735956899847,
+            "meaning_preserved": 1.0,
+            "latency": 0.8555538654327393,
+            "informality_score": 0.5,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 10,
+            "source": "The function accepts an integer parameter and returns a boolean value indicating whether the input is a prime number.",
+            "output": "The function takes an integer and returns a boolean telling whether it's a prime number.",
+            "references": [
+              "This function takes an integer and returns whether it's prime.",
+              "You pass it an integer and it tells you if it's prime or not."
+            ],
+            "gleu": 0.3641410562218426,
+            "meaning_preserved": 1.0,
+            "latency": 1.1659789085388184,
+            "informality_score": 0.3333333333333333
+          },
+          {
+            "index": 11,
+            "source": "Dear Mr. Johnson, I am writing to follow up on the invoice that was sent on January 15th. As of today, payment has not been received. Could you please provide an update on the expected payment date?",
+            "output": "Dear Mr. Johnson, I\u2019m writing to follow up on the invoice sent on January 15th. As of today, payment hasn\u2019t been received yet. Could you let me know when you expect to make the payment?",
+            "references": [
+              "Hi Mr. Johnson, just following up on the invoice from January 15th \u2014 we haven't received payment yet. Any idea when it'll go through?",
+              "Hey Mr. Johnson, quick follow-up on the Jan 15th invoice. We haven't gotten payment yet \u2014 do you know when to expect it?"
+            ],
+            "gleu": 0.09147827112247602,
+            "meaning_preserved": 1.0,
+            "latency": 1.9656126499176025,
+            "informality_score": 0.1
+          },
+          {
+            "index": 12,
+            "source": "All personnel are required to vacate the premises by 6:00 PM due to scheduled maintenance of the HVAC system.",
+            "output": "Everyone needs to leave the building by 6:00 PM because of scheduled HVAC maintenance.",
+            "references": [
+              "Everyone needs to leave the building by 6 PM \u2014 they're doing HVAC maintenance.",
+              "Heads up, building closes at 6 PM tonight for HVAC work."
+            ],
+            "gleu": 0.4913270548144421,
+            "meaning_preserved": 1.0,
+            "latency": 1.276454210281372,
+            "informality_score": 0.0
+          },
+          {
+            "index": 13,
+            "source": "The committee has determined that additional research is necessary before a final decision can be rendered.",
+            "output": "The committee said they need more research before making a final decision.",
+            "references": [
+              "The committee needs more research before making a decision.",
+              "They decided they need to do more research before deciding."
+            ],
+            "gleu": 0.37700638045494705,
+            "meaning_preserved": 1.0,
+            "latency": 1.1210649013519287,
+            "informality_score": 0.1
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "casual_v5_few_shot",
+          "mode": "casual",
+          "temperature": 0.6,
+          "total_samples": 14,
+          "errors": 0,
+          "avg_gleu": 0.5143556930109566,
+          "avg_meaning": 0.8809523809523808,
+          "avg_latency": 1.5187669481549944,
+          "avg_informality": 0.27802524856096283,
+          "stability": 1.0,
+          "composite": 0.6019999967572901
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "I would like to inform you that the meeting has been rescheduled to Thursday at 2:00 PM.",
+            "output": "Hey, just a heads up \u2014 the meeting's been moved to Thursday at 2 PM.",
+            "references": [
+              "Hey, just a heads up \u2014 the meeting's been moved to Thursday at 2 PM.",
+              "FYI, the meeting got pushed to Thursday at 2 PM."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.439310073852539,
+            "informality_score": 0.30000000000000004
+          },
+          {
+            "index": 1,
+            "source": "We regret to inform you that your request has been denied due to insufficient documentation.",
+            "output": "Sorry to say, but your request got denied because there wasn't enough documentation.",
+            "references": [
+              "Sorry, your request was denied \u2014 looks like some documents were missing.",
+              "Unfortunately, your request got denied because of missing documentation."
+            ],
+            "gleu": 0.3026643726685863,
+            "meaning_preserved": 1.0,
+            "latency": 1.3396248817443848,
+            "informality_score": 0.38461538461538464
+          },
+          {
+            "index": 2,
+            "source": "Please ensure that all deliverables are submitted prior to the established deadline.",
+            "output": "Make sure to get everything in before the deadline!",
+            "references": [
+              "Make sure to get everything in before the deadline!",
+              "Don't forget to submit everything before the deadline."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 0.5,
+            "latency": 1.2916038036346436,
+            "informality_score": 0.4
+          },
+          {
+            "index": 3,
+            "source": "The quarterly financial results exceeded expectations, with revenue increasing by 15% year-over-year.",
+            "output": "The quarterly financial results blew past expectations, with revenue up 15% year-over-year.",
+            "references": [
+              "Great news \u2014 quarterly revenue is up 15% compared to last year!",
+              "The quarterly numbers came in strong, with revenue up 15% year-over-year."
+            ],
+            "gleu": 0.3646285861936466,
+            "meaning_preserved": 1.0,
+            "latency": 1.584507703781128,
+            "informality_score": 0.0
+          },
+          {
+            "index": 4,
+            "source": "It has come to my attention that several team members have not completed the mandatory training modules.",
+            "output": "Hey, I noticed that a few team members haven't finished the required training modules.",
+            "references": [
+              "Hey, looks like some folks on the team still haven't done the required training.",
+              "Just noticed a few team members haven't finished the mandatory training yet."
+            ],
+            "gleu": 0.460462862587273,
+            "meaning_preserved": 1.0,
+            "latency": 1.370194911956787,
+            "informality_score": 0.4571428571428571
+          },
+          {
+            "index": 5,
+            "source": "I am writing to express my interest in the software engineering position that was recently posted on your website.",
+            "output": "Hey, I wanted to let you know I\u2019m interested in the software engineering role you posted on your site recently.",
+            "references": [
+              "I'm interested in the software engineering role you posted on your site!",
+              "I saw the software engineering job on your website and I'd love to apply."
+            ],
+            "gleu": 0.4562799427006306,
+            "meaning_preserved": 0.3333333333333333,
+            "latency": 1.5484259128570557,
+            "informality_score": 0.1
+          },
+          {
+            "index": 6,
+            "source": "Pursuant to our previous discussion, I have attached the revised proposal for your review and consideration.",
+            "output": "Hey, just wanted to share the revised proposal I put together based on our talk \u2014 feel free to take a look and let me know your thoughts!",
+            "references": [
+              "As we talked about, here's the updated proposal \u2014 let me know what you think!",
+              "Following up on our chat, I've attached the revised proposal. Take a look!"
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.7839927673339844,
+            "informality_score": 0.5
+          },
+          {
+            "index": 7,
+            "source": "The implementation of the new system will commence on Monday and is expected to be completed within a two-week timeframe.",
+            "output": "The new system will start on Monday and should wrap up in about two weeks.",
+            "references": [
+              "We're kicking off the new system on Monday \u2014 should take about two weeks.",
+              "The new system rollout starts Monday and should be done in about two weeks."
+            ],
+            "gleu": 0.3040559696901293,
+            "meaning_preserved": 1.0,
+            "latency": 1.5091681480407715,
+            "informality_score": 0.0
+          },
+          {
+            "index": 8,
+            "source": "Hey, wanna grab lunch tomorrow?",
+            "output": "Hey, wanna grab lunch tomorrow?",
+            "references": [
+              "Hey, wanna grab lunch tomorrow?",
+              "Hey, want to grab lunch tomorrow?"
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2357170581817627,
+            "informality_score": 0.30000000000000004,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "That movie was awesome, you should totally check it out!",
+            "output": "That movie was awesome, you should totally check it out!",
+            "references": [
+              "That movie was awesome, you should totally check it out!"
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3140859603881836,
+            "informality_score": 0.4,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 10,
+            "source": "The function accepts an integer parameter and returns a boolean value indicating whether the input is a prime number.",
+            "output": "The function takes an integer and returns a boolean telling you if it's a prime number.",
+            "references": [
+              "This function takes an integer and returns whether it's prime.",
+              "You pass it an integer and it tells you if it's prime or not."
+            ],
+            "gleu": 0.31314224813827346,
+            "meaning_preserved": 1.0,
+            "latency": 1.4660170078277588,
+            "informality_score": 0.3125
+          },
+          {
+            "index": 11,
+            "source": "Dear Mr. Johnson, I am writing to follow up on the invoice that was sent on January 15th. As of today, payment has not been received. Could you please provide an update on the expected payment date?",
+            "output": "Hey Mr. Johnson, just following up on the invoice from January 15th. We haven\u2019t received payment yet\u2014could you let us know when you expect it to come in?",
+            "references": [
+              "Hi Mr. Johnson, just following up on the invoice from January 15th \u2014 we haven't received payment yet. Any idea when it'll go through?",
+              "Hey Mr. Johnson, quick follow-up on the Jan 15th invoice. We haven't gotten payment yet \u2014 do you know when to expect it?"
+            ],
+            "gleu": 0.355402294764931,
+            "meaning_preserved": 1.0,
+            "latency": 2.317746162414551,
+            "informality_score": 0.4
+          },
+          {
+            "index": 12,
+            "source": "All personnel are required to vacate the premises by 6:00 PM due to scheduled maintenance of the HVAC system.",
+            "output": "Hey everyone, you all need to leave the building by 6 PM today because we're doing maintenance on the HVAC system.",
+            "references": [
+              "Everyone needs to leave the building by 6 PM \u2014 they're doing HVAC maintenance.",
+              "Heads up, building closes at 6 PM tonight for HVAC work."
+            ],
+            "gleu": 0.294467310498826,
+            "meaning_preserved": 1.0,
+            "latency": 1.670701026916504,
+            "informality_score": 0.3380952380952381
+          },
+          {
+            "index": 13,
+            "source": "The committee has determined that additional research is necessary before a final decision can be rendered.",
+            "output": "The committee says we need to do more research before making a final call.",
+            "references": [
+              "The committee needs more research before making a decision.",
+              "They decided they need to do more research before deciding."
+            ],
+            "gleu": 0.3498761149110956,
+            "meaning_preserved": 0.5,
+            "latency": 1.3916418552398682,
+            "informality_score": 0.0
+          }
+        ]
+      }
+    ],
+    "professional": [
+      {
+        "metrics": {
+          "variant": "prof_v1_production",
+          "mode": "professional",
+          "temperature": 0.7,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.21712382243752462,
+          "avg_meaning": 0.9277777777777778,
+          "avg_latency": 1.6484622319539388,
+          "avg_formality": 0.6513333333333335,
+          "stability": 1.0,
+          "composite": 0.6388704800645907
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "hey so the numbers look pretty good this quarter, revenue is up like 15% and we crushed our targets",
+            "output": "Hey, so the numbers look pretty good this quarter. Revenue is up by 15%, and we crushed our targets.",
+            "references": [
+              "This quarter's results are strong \u2014 revenue increased 15%, exceeding our targets.",
+              "Our quarterly performance has been excellent, with revenue up 15% and all targets met."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.6345281600952148,
+            "formality_score": 0.44999999999999996
+          },
+          {
+            "index": 1,
+            "source": "yeah so basically the server crashed at 2am and it took us forever to fix it, prob like 3 hours",
+            "output": "The server crashed at 2 a.m., and it took us a long time to fix it\u2014probably around three hours.",
+            "references": [
+              "The server experienced an outage at 2:00 AM, and restoration took approximately three hours.",
+              "We had a server outage at 2 AM that required approximately three hours to resolve."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.8237190246582031,
+            "formality_score": 0.55
+          },
+          {
+            "index": 2,
+            "source": "can you send me that thing we talked about? i need it for the presentation tmrw",
+            "output": "Can you send me that thing we talked about? I need it for the presentation tomorrow.",
+            "references": [
+              "Could you please send me the document we discussed? I need it for tomorrow's presentation.",
+              "Would you mind sending the materials we discussed? I'll need them for my presentation tomorrow."
+            ],
+            "gleu": 0.20149416157064579,
+            "meaning_preserved": 1.0,
+            "latency": 1.5766589641571045,
+            "formality_score": 0.65
+          },
+          {
+            "index": 3,
+            "source": "tbh i dont think this approach is gonna work, we should prob try something else",
+            "output": "I don't think this approach is going to work; we should probably try something else.",
+            "references": [
+              "I have concerns about the viability of this approach. I'd recommend exploring alternative options.",
+              "In my assessment, this approach may not be effective. I suggest we consider alternatives."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.5,
+            "latency": 1.5487427711486816,
+            "formality_score": 0.55
+          },
+          {
+            "index": 4,
+            "source": "the new hire is super smart and picks things up really fast, def a great addition to the team",
+            "output": "The new hire is exceptionally intelligent and quickly grasps new concepts, making them a valuable addition to the team.",
+            "references": [
+              "The new hire has demonstrated strong aptitude and a quick learning curve. They're a valuable addition to the team.",
+              "Our new team member has shown excellent capability and adapts quickly. A strong addition to the team."
+            ],
+            "gleu": 0.32594818888335836,
+            "meaning_preserved": 1.0,
+            "latency": 1.6381230354309082,
+            "formality_score": 0.75
+          },
+          {
+            "index": 5,
+            "source": "sorry but we can't do that, the budget won't allow it and frankly it's not worth the effort",
+            "output": "We regret to inform you that we cannot proceed with this request. The budget does not permit it, and frankly, it is not worth the effort.",
+            "references": [
+              "Unfortunately, this falls outside our current budget constraints, and the expected return doesn't justify the investment.",
+              "I'm afraid this isn't feasible given our budget limitations, and the cost-benefit analysis doesn't support it."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.9003651142120361,
+            "formality_score": 0.65
+          },
+          {
+            "index": 6,
+            "source": "just wanted to give u a heads up that the client is kinda unhappy with the latest deliverable",
+            "output": "I just wanted to give you a heads up that the client is somewhat unhappy with the latest deliverable.",
+            "references": [
+              "I wanted to flag that the client has expressed dissatisfaction with the latest deliverable.",
+              "Please be aware that the client has raised concerns about the most recent deliverable."
+            ],
+            "gleu": 0.209734257913107,
+            "meaning_preserved": 1.0,
+            "latency": 1.609997034072876,
+            "formality_score": 0.65
+          },
+          {
+            "index": 7,
+            "source": "we need to figure out why users keep dropping off at the checkout page, its hurting our conversion rate big time",
+            "output": "We need to determine why users are continuing to drop off at the checkout page, as it is significantly impacting our conversion rate.",
+            "references": [
+              "We need to investigate the high drop-off rate on our checkout page, as it's significantly impacting our conversion metrics.",
+              "Our checkout page drop-off rate requires investigation \u2014 it's having a substantial negative impact on conversions."
+            ],
+            "gleu": 0.19511368322427836,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.733705997467041,
+            "formality_score": 0.65
+          },
+          {
+            "index": 8,
+            "source": "Please find attached the quarterly report for your review.",
+            "output": "Please find attached the quarterly report for your review.",
+            "references": [
+              "Please find attached the quarterly report for your review.",
+              "Attached is the quarterly report for your review."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2310690879821777,
+            "formality_score": 0.73,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "We appreciate your continued partnership and look forward to future collaboration.",
+            "output": "We appreciate your continued partnership and look forward to future collaboration.",
+            "references": [
+              "We appreciate your continued partnership and look forward to future collaboration."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3974978923797607,
+            "formality_score": 0.73,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 10,
+            "source": "the deploy broke prod, we're rolling back now. seems like the db migration script had a bug",
+            "output": "The deployment broke production, and we are rolling back now. It appears the database migration script had a bug.",
+            "references": [
+              "A production incident occurred during deployment \u2014 we're executing a rollback. The root cause appears to be a bug in the database migration script.",
+              "The deployment caused a production issue. We are currently rolling back. Initial analysis points to a defect in the database migration script."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.75,
+            "latency": 1.7376070022583008,
+            "formality_score": 0.65
+          },
+          {
+            "index": 11,
+            "source": "lol the intern fixed that bug that's been open for 6 months, nobody else could figure it out",
+            "output": "The intern fixed that bug, which had been open for six months and no one else could figure out.",
+            "references": [
+              "Our intern resolved a long-standing bug that had been open for six months \u2014 a notable achievement that the rest of the team had been unable to address.",
+              "Impressively, the intern resolved a six-month-old bug that had stumped the rest of the team."
+            ],
+            "gleu": 0.1718823364836692,
+            "meaning_preserved": 1.0,
+            "latency": 1.6860020160675049,
+            "formality_score": 0.65
+          },
+          {
+            "index": 12,
+            "source": "idk if we should go with AWS or GCP for this, both have pros and cons. thoughts?",
+            "output": "I'm not sure whether we should proceed with AWS or GCP for this project; both have their own advantages and disadvantages. What are your thoughts?",
+            "references": [
+              "I'd like to discuss the tradeoffs between AWS and GCP for this project. Both platforms have distinct advantages. What are your thoughts?",
+              "We should evaluate AWS versus GCP for this initiative \u2014 each has its merits. I'd welcome your input."
+            ],
+            "gleu": 0.15268470848781107,
+            "meaning_preserved": 1.0,
+            "latency": 2.006139039993286,
+            "formality_score": 0.55
+          },
+          {
+            "index": 13,
+            "source": "ngl the product launch went way better than expected, tons of signups on day one",
+            "output": "The product launch went far better than expected, with a significant number of signups on day one.",
+            "references": [
+              "The product launch exceeded expectations, with significant signup volume on the first day.",
+              "I'm pleased to report that the product launch performed above expectations, generating strong day-one signups."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.6568200588226318,
+            "formality_score": 0.75
+          },
+          {
+            "index": 14,
+            "source": "pls make sure u test everything before pushing to main, we had too many bugs last sprint",
+            "output": "Please ensure you test everything thoroughly before pushing to main; we encountered too many bugs during the last sprint.",
+            "references": [
+              "Please ensure thorough testing before merging to main. We experienced an elevated number of defects last sprint and need to improve our quality gates.",
+              "Please run comprehensive tests before pushing to main. Last sprint's bug count was higher than acceptable."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.5459582805633545,
+            "formality_score": 0.81
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "prof_v2_business_polish",
+          "mode": "professional",
+          "temperature": 0.6,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.2856458965617597,
+          "avg_meaning": 0.9388888888888889,
+          "avg_latency": 1.3979697068532309,
+          "avg_formality": 0.6820000000000002,
+          "stability": 0.0,
+          "composite": 0.6219604356351947
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "hey so the numbers look pretty good this quarter, revenue is up like 15% and we crushed our targets",
+            "output": "The financial results for this quarter show strong performance, with revenue increasing by 15% and exceeding our targets.",
+            "references": [
+              "This quarter's results are strong \u2014 revenue increased 15%, exceeding our targets.",
+              "Our quarterly performance has been excellent, with revenue up 15% and all targets met."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.4312989711761475,
+            "formality_score": 0.65
+          },
+          {
+            "index": 1,
+            "source": "yeah so basically the server crashed at 2am and it took us forever to fix it, prob like 3 hours",
+            "output": "The server experienced a crash at 2:00 AM, and it took approximately three hours to resolve the issue.",
+            "references": [
+              "The server experienced an outage at 2:00 AM, and restoration took approximately three hours.",
+              "We had a server outage at 2 AM that required approximately three hours to resolve."
+            ],
+            "gleu": 0.24848852650155176,
+            "meaning_preserved": 1.0,
+            "latency": 1.6111030578613281,
+            "formality_score": 0.83
+          },
+          {
+            "index": 2,
+            "source": "can you send me that thing we talked about? i need it for the presentation tmrw",
+            "output": "Could you please send me the document we discussed? I will need it for the presentation tomorrow.",
+            "references": [
+              "Could you please send me the document we discussed? I need it for tomorrow's presentation.",
+              "Would you mind sending the materials we discussed? I'll need them for my presentation tomorrow."
+            ],
+            "gleu": 0.630190855592386,
+            "meaning_preserved": 1.0,
+            "latency": 1.2708969116210938,
+            "formality_score": 0.73
+          },
+          {
+            "index": 3,
+            "source": "tbh i dont think this approach is gonna work, we should prob try something else",
+            "output": "To be honest, I don't believe this approach will be effective. We should consider exploring alternative solutions.",
+            "references": [
+              "I have concerns about the viability of this approach. I'd recommend exploring alternative options.",
+              "In my assessment, this approach may not be effective. I suggest we consider alternatives."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3243372440338135,
+            "formality_score": 0.55
+          },
+          {
+            "index": 4,
+            "source": "the new hire is super smart and picks things up really fast, def a great addition to the team",
+            "output": "The new hire is highly intelligent and demonstrates a strong ability to learn and adapt quickly, making them a valuable addition to the team.",
+            "references": [
+              "The new hire has demonstrated strong aptitude and a quick learning curve. They're a valuable addition to the team.",
+              "Our new team member has shown excellent capability and adapts quickly. A strong addition to the team."
+            ],
+            "gleu": 0.26512298021756175,
+            "meaning_preserved": 1.0,
+            "latency": 1.443364143371582,
+            "formality_score": 0.73
+          },
+          {
+            "index": 5,
+            "source": "sorry but we can't do that, the budget won't allow it and frankly it's not worth the effort",
+            "output": "We regret to inform you that we cannot proceed with this request. The budget does not permit it, and frankly, the return on investment does not justify the effort.",
+            "references": [
+              "Unfortunately, this falls outside our current budget constraints, and the expected return doesn't justify the investment.",
+              "I'm afraid this isn't feasible given our budget limitations, and the cost-benefit analysis doesn't support it."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.593804121017456,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 6,
+            "source": "just wanted to give u a heads up that the client is kinda unhappy with the latest deliverable",
+            "output": "I would like to inform you that the client has expressed some dissatisfaction with the most recent deliverable.",
+            "references": [
+              "I wanted to flag that the client has expressed dissatisfaction with the latest deliverable.",
+              "Please be aware that the client has raised concerns about the most recent deliverable."
+            ],
+            "gleu": 0.29118923373789324,
+            "meaning_preserved": 1.0,
+            "latency": 1.3163602352142334,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 7,
+            "source": "we need to figure out why users keep dropping off at the checkout page, its hurting our conversion rate big time",
+            "output": "We need to identify the reasons why users are abandoning the checkout process, as this is significantly impacting our conversion rate.",
+            "references": [
+              "We need to investigate the high drop-off rate on our checkout page, as it's significantly impacting our conversion metrics.",
+              "Our checkout page drop-off rate requires investigation \u2014 it's having a substantial negative impact on conversions."
+            ],
+            "gleu": 0.17976451428761386,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.4395029544830322,
+            "formality_score": 0.65
+          },
+          {
+            "index": 8,
+            "source": "Please find attached the quarterly report for your review.",
+            "output": "Please find attached the quarterly report for your review and consideration.",
+            "references": [
+              "Please find attached the quarterly report for your review.",
+              "Attached is the quarterly report for your review."
+            ],
+            "gleu": 0.6786502681586726,
+            "meaning_preserved": 1.0,
+            "latency": 1.1177551746368408,
+            "formality_score": 0.73,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 9,
+            "source": "We appreciate your continued partnership and look forward to future collaboration.",
+            "output": "We value your continued partnership and look forward to future collaboration.",
+            "references": [
+              "We appreciate your continued partnership and look forward to future collaboration."
+            ],
+            "gleu": 0.8070557274927982,
+            "meaning_preserved": 1.0,
+            "latency": 1.2780506610870361,
+            "formality_score": 0.65,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 10,
+            "source": "the deploy broke prod, we're rolling back now. seems like the db migration script had a bug",
+            "output": "The deployment caused an issue in production, and we are currently rolling back the changes. It appears there was a bug in the database migration script.",
+            "references": [
+              "A production incident occurred during deployment \u2014 we're executing a rollback. The root cause appears to be a bug in the database migration script.",
+              "The deployment caused a production issue. We are currently rolling back. Initial analysis points to a defect in the database migration script."
+            ],
+            "gleu": 0.2767906930665974,
+            "meaning_preserved": 0.75,
+            "latency": 1.4209680557250977,
+            "formality_score": 0.75
+          },
+          {
+            "index": 11,
+            "source": "lol the intern fixed that bug that's been open for 6 months, nobody else could figure it out",
+            "output": "The intern resolved a long-standing bug that had been open for six months and could not be addressed by other team members.",
+            "references": [
+              "Our intern resolved a long-standing bug that had been open for six months \u2014 a notable achievement that the rest of the team had been unable to address.",
+              "Impressively, the intern resolved a six-month-old bug that had stumped the rest of the team."
+            ],
+            "gleu": 0.403543600845358,
+            "meaning_preserved": 1.0,
+            "latency": 1.3810930252075195,
+            "formality_score": 0.65
+          },
+          {
+            "index": 12,
+            "source": "idk if we should go with AWS or GCP for this, both have pros and cons. thoughts?",
+            "output": "We are currently evaluating whether to adopt AWS or GCP for this project, as both platforms offer distinct advantages and considerations. Could you provide your insights or recommendations?",
+            "references": [
+              "I'd like to discuss the tradeoffs between AWS and GCP for this project. Both platforms have distinct advantages. What are your thoughts?",
+              "We should evaluate AWS versus GCP for this initiative \u2014 each has its merits. I'd welcome your input."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.7037138938903809,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 13,
+            "source": "ngl the product launch went way better than expected, tons of signups on day one",
+            "output": "The product launch exceeded expectations, with a significant number of signups on the first day.",
+            "references": [
+              "The product launch exceeded expectations, with significant signup volume on the first day.",
+              "I'm pleased to report that the product launch performed above expectations, generating strong day-one signups."
+            ],
+            "gleu": 0.5038920485259633,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.264876127243042,
+            "formality_score": 0.75
+          },
+          {
+            "index": 14,
+            "source": "pls make sure u test everything before pushing to main, we had too many bugs last sprint",
+            "output": "Please ensure all testing is completed before deploying to the main branch. We experienced a significant number of bugs during the last sprint.",
+            "references": [
+              "Please ensure thorough testing before merging to main. We experienced an elevated number of defects last sprint and need to improve our quality gates.",
+              "Please run comprehensive tests before pushing to main. Last sprint's bug count was higher than acceptable."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3724210262298584,
+            "formality_score": 0.91
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "prof_v3_tone_elevator",
+          "mode": "professional",
+          "temperature": 0.6,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.238768135783243,
+          "avg_meaning": 0.9055555555555556,
+          "avg_latency": 1.5636192162831624,
+          "avg_formality": 0.6953333333333335,
+          "stability": 0.5,
+          "composite": 0.6018971074016396
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "hey so the numbers look pretty good this quarter, revenue is up like 15% and we crushed our targets",
+            "output": "The financial results for this quarter demonstrate strong performance, with revenue increasing by 15% and exceeding our targets.",
+            "references": [
+              "This quarter's results are strong \u2014 revenue increased 15%, exceeding our targets.",
+              "Our quarterly performance has been excellent, with revenue up 15% and all targets met."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.553826093673706,
+            "formality_score": 0.73
+          },
+          {
+            "index": 1,
+            "source": "yeah so basically the server crashed at 2am and it took us forever to fix it, prob like 3 hours",
+            "output": "Unfortunately, the server crashed at 2:00 AM, and it took approximately three hours to resolve the issue.",
+            "references": [
+              "The server experienced an outage at 2:00 AM, and restoration took approximately three hours.",
+              "We had a server outage at 2 AM that required approximately three hours to resolve."
+            ],
+            "gleu": 0.23077125078149244,
+            "meaning_preserved": 1.0,
+            "latency": 1.576545000076294,
+            "formality_score": 0.83
+          },
+          {
+            "index": 2,
+            "source": "can you send me that thing we talked about? i need it for the presentation tmrw",
+            "output": "Could you please send me the document we discussed? I will need it for the presentation tomorrow.",
+            "references": [
+              "Could you please send me the document we discussed? I need it for tomorrow's presentation.",
+              "Would you mind sending the materials we discussed? I'll need them for my presentation tomorrow."
+            ],
+            "gleu": 0.630190855592386,
+            "meaning_preserved": 1.0,
+            "latency": 1.4457809925079346,
+            "formality_score": 0.73
+          },
+          {
+            "index": 3,
+            "source": "tbh i dont think this approach is gonna work, we should prob try something else",
+            "output": "Candidly, I do not believe this approach will be effective, and we should consider alternative strategies.",
+            "references": [
+              "I have concerns about the viability of this approach. I'd recommend exploring alternative options.",
+              "In my assessment, this approach may not be effective. I suggest we consider alternatives."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.5069587230682373,
+            "formality_score": 0.65
+          },
+          {
+            "index": 4,
+            "source": "the new hire is super smart and picks things up really fast, def a great addition to the team",
+            "output": "The new hire is highly intelligent and quickly grasps new concepts, making them a valuable addition to the team.",
+            "references": [
+              "The new hire has demonstrated strong aptitude and a quick learning curve. They're a valuable addition to the team.",
+              "Our new team member has shown excellent capability and adapts quickly. A strong addition to the team."
+            ],
+            "gleu": 0.32594818888335836,
+            "meaning_preserved": 1.0,
+            "latency": 1.5451903343200684,
+            "formality_score": 0.75
+          },
+          {
+            "index": 5,
+            "source": "sorry but we can't do that, the budget won't allow it and frankly it's not worth the effort",
+            "output": "We regret to inform you that we cannot proceed with this request. The budget constraints prevent us from allocating the necessary resources, and we believe this course of action is not aligned with our current priorities.",
+            "references": [
+              "Unfortunately, this falls outside our current budget constraints, and the expected return doesn't justify the investment.",
+              "I'm afraid this isn't feasible given our budget limitations, and the cost-benefit analysis doesn't support it."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 2.069096088409424,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 6,
+            "source": "just wanted to give u a heads up that the client is kinda unhappy with the latest deliverable",
+            "output": "I would like to inform you that the client has expressed some dissatisfaction with the most recent deliverable.",
+            "references": [
+              "I wanted to flag that the client has expressed dissatisfaction with the latest deliverable.",
+              "Please be aware that the client has raised concerns about the most recent deliverable."
+            ],
+            "gleu": 0.29118923373789324,
+            "meaning_preserved": 1.0,
+            "latency": 1.4548702239990234,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 7,
+            "source": "we need to figure out why users keep dropping off at the checkout page, its hurting our conversion rate big time",
+            "output": "We need to determine why users are continuing to abandon their sessions at the checkout page. This is significantly impacting our conversion rate.",
+            "references": [
+              "We need to investigate the high drop-off rate on our checkout page, as it's significantly impacting our conversion metrics.",
+              "Our checkout page drop-off rate requires investigation \u2014 it's having a substantial negative impact on conversions."
+            ],
+            "gleu": 0.15875722180934987,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.6178522109985352,
+            "formality_score": 0.65
+          },
+          {
+            "index": 8,
+            "source": "Please find attached the quarterly report for your review.",
+            "output": "Please find attached the quarterly report for your review.",
+            "references": [
+              "Please find attached the quarterly report for your review.",
+              "Attached is the quarterly report for your review."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.222808837890625,
+            "formality_score": 0.73,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "We appreciate your continued partnership and look forward to future collaboration.",
+            "output": "We value your ongoing partnership and anticipate future collaboration with enthusiasm.",
+            "references": [
+              "We appreciate your continued partnership and look forward to future collaboration."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2779898643493652,
+            "formality_score": 0.65,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 10,
+            "source": "the deploy broke prod, we're rolling back now. seems like the db migration script had a bug",
+            "output": "The deployment disrupted production, and we are currently rolling back. It appears the database migration script contained an error.",
+            "references": [
+              "A production incident occurred during deployment \u2014 we're executing a rollback. The root cause appears to be a bug in the database migration script.",
+              "The deployment caused a production issue. We are currently rolling back. Initial analysis points to a defect in the database migration script."
+            ],
+            "gleu": 0.23786220543234574,
+            "meaning_preserved": 0.5,
+            "latency": 1.5470316410064697,
+            "formality_score": 0.75
+          },
+          {
+            "index": 11,
+            "source": "lol the intern fixed that bug that's been open for 6 months, nobody else could figure it out",
+            "output": "Candidly, the intern resolved a bug that had been open for six months, a problem no one else had been able to address.",
+            "references": [
+              "Our intern resolved a long-standing bug that had been open for six months \u2014 a notable achievement that the rest of the team had been unable to address.",
+              "Impressively, the intern resolved a six-month-old bug that had stumped the rest of the team."
+            ],
+            "gleu": 0.29499931694266157,
+            "meaning_preserved": 1.0,
+            "latency": 1.6613922119140625,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 12,
+            "source": "idk if we should go with AWS or GCP for this, both have pros and cons. thoughts?",
+            "output": "It is unclear whether AWS or GCP would be the most suitable choice for this project, as both platforms have their own advantages and disadvantages. What are your thoughts on this matter?",
+            "references": [
+              "I'd like to discuss the tradeoffs between AWS and GCP for this project. Both platforms have distinct advantages. What are your thoughts?",
+              "We should evaluate AWS versus GCP for this initiative \u2014 each has its merits. I'd welcome your input."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.9267089366912842,
+            "formality_score": 0.65
+          },
+          {
+            "index": 13,
+            "source": "ngl the product launch went way better than expected, tons of signups on day one",
+            "output": "To be candid, the product launch exceeded expectations, with a significant number of signups on the first day.",
+            "references": [
+              "The product launch exceeded expectations, with significant signup volume on the first day.",
+              "I'm pleased to report that the product launch performed above expectations, generating strong day-one signups."
+            ],
+            "gleu": 0.41180376356915777,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.5411429405212402,
+            "formality_score": 0.75
+          },
+          {
+            "index": 14,
+            "source": "pls make sure u test everything before pushing to main, we had too many bugs last sprint",
+            "output": "Please ensure all testing is completed before deploying to main; we encountered several issues during the previous sprint.",
+            "references": [
+              "Please ensure thorough testing before merging to main. We experienced an elevated number of defects last sprint and need to improve our quality gates.",
+              "Please run comprehensive tests before pushing to main. Last sprint's bug count was higher than acceptable."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.75,
+            "latency": 1.507094144821167,
+            "formality_score": 0.91
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "prof_v4_minimal_rewrite",
+          "mode": "professional",
+          "temperature": 0.5,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.2971970732641583,
+          "avg_meaning": 0.9611111111111111,
+          "avg_latency": 1.2927215258280436,
+          "avg_formality": 0.6886666666666668,
+          "stability": 0.5,
+          "composite": 0.6340924553125808
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "hey so the numbers look pretty good this quarter, revenue is up like 15% and we crushed our targets",
+            "output": "The numbers for this quarter appear to be strong, with revenue increasing by 15% and exceeding our targets.",
+            "references": [
+              "This quarter's results are strong \u2014 revenue increased 15%, exceeding our targets.",
+              "Our quarterly performance has been excellent, with revenue up 15% and all targets met."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3685102462768555,
+            "formality_score": 0.65
+          },
+          {
+            "index": 1,
+            "source": "yeah so basically the server crashed at 2am and it took us forever to fix it, prob like 3 hours",
+            "output": "The server crashed at 2:00 AM, and it took approximately three hours to resolve the issue.",
+            "references": [
+              "The server experienced an outage at 2:00 AM, and restoration took approximately three hours.",
+              "We had a server outage at 2 AM that required approximately three hours to resolve."
+            ],
+            "gleu": 0.2467789409989967,
+            "meaning_preserved": 1.0,
+            "latency": 1.3228139877319336,
+            "formality_score": 0.83
+          },
+          {
+            "index": 2,
+            "source": "can you send me that thing we talked about? i need it for the presentation tmrw",
+            "output": "Could you please send me the document we discussed? I need it for the presentation tomorrow.",
+            "references": [
+              "Could you please send me the document we discussed? I need it for tomorrow's presentation.",
+              "Would you mind sending the materials we discussed? I'll need them for my presentation tomorrow."
+            ],
+            "gleu": 0.7916963878457504,
+            "meaning_preserved": 1.0,
+            "latency": 1.2658178806304932,
+            "formality_score": 0.73
+          },
+          {
+            "index": 3,
+            "source": "tbh i dont think this approach is gonna work, we should prob try something else",
+            "output": "To be honest, I don't believe this approach will be effective, and we should consider alternative strategies.",
+            "references": [
+              "I have concerns about the viability of this approach. I'd recommend exploring alternative options.",
+              "In my assessment, this approach may not be effective. I suggest we consider alternatives."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2737469673156738,
+            "formality_score": 0.55
+          },
+          {
+            "index": 4,
+            "source": "the new hire is super smart and picks things up really fast, def a great addition to the team",
+            "output": "The new hire is highly intelligent and demonstrates strong learning capabilities, making them a valuable addition to the team.",
+            "references": [
+              "The new hire has demonstrated strong aptitude and a quick learning curve. They're a valuable addition to the team.",
+              "Our new team member has shown excellent capability and adapts quickly. A strong addition to the team."
+            ],
+            "gleu": 0.3411488281065382,
+            "meaning_preserved": 1.0,
+            "latency": 1.2642147541046143,
+            "formality_score": 0.73
+          },
+          {
+            "index": 5,
+            "source": "sorry but we can't do that, the budget won't allow it and frankly it's not worth the effort",
+            "output": "We regret to inform you that we cannot proceed with this request. The budget does not permit it, and frankly, it is not considered a worthwhile use of resources.",
+            "references": [
+              "Unfortunately, this falls outside our current budget constraints, and the expected return doesn't justify the investment.",
+              "I'm afraid this isn't feasible given our budget limitations, and the cost-benefit analysis doesn't support it."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.532824993133545,
+            "formality_score": 0.65
+          },
+          {
+            "index": 6,
+            "source": "just wanted to give u a heads up that the client is kinda unhappy with the latest deliverable",
+            "output": "I wanted to provide you with a heads-up that the client is somewhat dissatisfied with the latest deliverable.",
+            "references": [
+              "I wanted to flag that the client has expressed dissatisfaction with the latest deliverable.",
+              "Please be aware that the client has raised concerns about the most recent deliverable."
+            ],
+            "gleu": 0.24848852650155176,
+            "meaning_preserved": 1.0,
+            "latency": 1.2871289253234863,
+            "formality_score": 0.65
+          },
+          {
+            "index": 7,
+            "source": "we need to figure out why users keep dropping off at the checkout page, its hurting our conversion rate big time",
+            "output": "We need to identify the reasons users are abandoning the checkout process, as it is significantly impacting our conversion rate.",
+            "references": [
+              "We need to investigate the high drop-off rate on our checkout page, as it's significantly impacting our conversion metrics.",
+              "Our checkout page drop-off rate requires investigation \u2014 it's having a substantial negative impact on conversions."
+            ],
+            "gleu": 0.18951629567590741,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.397881269454956,
+            "formality_score": 0.65
+          },
+          {
+            "index": 8,
+            "source": "Please find attached the quarterly report for your review.",
+            "output": "Please find attached the quarterly report for your review.",
+            "references": [
+              "Please find attached the quarterly report for your review.",
+              "Attached is the quarterly report for your review."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 0.9274580478668213,
+            "formality_score": 0.73,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "We appreciate your continued partnership and look forward to future collaboration.",
+            "output": "We value your continued partnership and look forward to future collaboration.",
+            "references": [
+              "We appreciate your continued partnership and look forward to future collaboration."
+            ],
+            "gleu": 0.8070557274927982,
+            "meaning_preserved": 1.0,
+            "latency": 1.0883431434631348,
+            "formality_score": 0.65,
+            "stability_test": true,
+            "stability_pass": false
+          },
+          {
+            "index": 10,
+            "source": "the deploy broke prod, we're rolling back now. seems like the db migration script had a bug",
+            "output": "The deployment broke production; we are rolling back currently. It appears the database migration script had a bug.",
+            "references": [
+              "A production incident occurred during deployment \u2014 we're executing a rollback. The root cause appears to be a bug in the database migration script.",
+              "The deployment caused a production issue. We are currently rolling back. Initial analysis points to a defect in the database migration script."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 0.75,
+            "latency": 1.2597832679748535,
+            "formality_score": 0.65
+          },
+          {
+            "index": 11,
+            "source": "lol the intern fixed that bug that's been open for 6 months, nobody else could figure it out",
+            "output": "The intern resolved a bug that had been open for six months, a problem that no one else was able to identify or fix.",
+            "references": [
+              "Our intern resolved a long-standing bug that had been open for six months \u2014 a notable achievement that the rest of the team had been unable to address.",
+              "Impressively, the intern resolved a six-month-old bug that had stumped the rest of the team."
+            ],
+            "gleu": 0.27122495082094705,
+            "meaning_preserved": 1.0,
+            "latency": 1.354114055633545,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 12,
+            "source": "idk if we should go with AWS or GCP for this, both have pros and cons. thoughts?",
+            "output": "I am unsure whether to proceed with AWS or GCP for this project, as both platforms have their advantages and considerations. What are your thoughts?",
+            "references": [
+              "I'd like to discuss the tradeoffs between AWS and GCP for this project. Both platforms have distinct advantages. What are your thoughts?",
+              "We should evaluate AWS versus GCP for this initiative \u2014 each has its merits. I'd welcome your input."
+            ],
+            "gleu": 0.18608008857318276,
+            "meaning_preserved": 1.0,
+            "latency": 1.4157640933990479,
+            "formality_score": 0.65
+          },
+          {
+            "index": 13,
+            "source": "ngl the product launch went way better than expected, tons of signups on day one",
+            "output": "The product launch exceeded expectations, with a significant number of signups on day one.",
+            "references": [
+              "The product launch exceeded expectations, with significant signup volume on the first day.",
+              "I'm pleased to report that the product launch performed above expectations, generating strong day-one signups."
+            ],
+            "gleu": 0.3759663529467017,
+            "meaning_preserved": 1.0,
+            "latency": 1.2139599323272705,
+            "formality_score": 0.75
+          },
+          {
+            "index": 14,
+            "source": "pls make sure u test everything before pushing to main, we had too many bugs last sprint",
+            "output": "Please ensure that all tests are completed before merging into main, as we encountered a significant number of bugs during the last sprint.",
+            "references": [
+              "Please ensure thorough testing before merging to main. We experienced an elevated number of defects last sprint and need to improve our quality gates.",
+              "Please run comprehensive tests before pushing to main. Last sprint's bug count was higher than acceptable."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.4184613227844238,
+            "formality_score": 0.91
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "variant": "prof_v5_few_shot",
+          "mode": "professional",
+          "temperature": 0.5,
+          "total_samples": 15,
+          "errors": 0,
+          "avg_gleu": 0.3395287892594886,
+          "avg_meaning": 0.9777777777777779,
+          "avg_latency": 1.469147253036499,
+          "avg_formality": 0.7140000000000002,
+          "stability": 1.0,
+          "composite": 0.7093919701111799
+        },
+        "details": [
+          {
+            "index": 0,
+            "source": "hey so the numbers look pretty good this quarter, revenue is up like 15% and we crushed our targets",
+            "output": "This quarter's results are strong, with revenue increasing by 15% and exceeding our targets.",
+            "references": [
+              "This quarter's results are strong \u2014 revenue increased 15%, exceeding our targets.",
+              "Our quarterly performance has been excellent, with revenue up 15% and all targets met."
+            ],
+            "gleu": 0.2658483576665877,
+            "meaning_preserved": 1.0,
+            "latency": 1.52103590965271,
+            "formality_score": 0.65
+          },
+          {
+            "index": 1,
+            "source": "yeah so basically the server crashed at 2am and it took us forever to fix it, prob like 3 hours",
+            "output": "The server crashed at 2:00 AM, and it took approximately three hours to resolve the issue.",
+            "references": [
+              "The server experienced an outage at 2:00 AM, and restoration took approximately three hours.",
+              "We had a server outage at 2 AM that required approximately three hours to resolve."
+            ],
+            "gleu": 0.2467789409989967,
+            "meaning_preserved": 1.0,
+            "latency": 1.4871628284454346,
+            "formality_score": 0.83
+          },
+          {
+            "index": 2,
+            "source": "can you send me that thing we talked about? i need it for the presentation tmrw",
+            "output": "Could you please send me the document we discussed? I will need it for the presentation tomorrow.",
+            "references": [
+              "Could you please send me the document we discussed? I need it for tomorrow's presentation.",
+              "Would you mind sending the materials we discussed? I'll need them for my presentation tomorrow."
+            ],
+            "gleu": 0.630190855592386,
+            "meaning_preserved": 1.0,
+            "latency": 1.3917298316955566,
+            "formality_score": 0.73
+          },
+          {
+            "index": 3,
+            "source": "tbh i dont think this approach is gonna work, we should prob try something else",
+            "output": "I do not believe this approach will be effective, and we should consider alternative strategies.",
+            "references": [
+              "I have concerns about the viability of this approach. I'd recommend exploring alternative options.",
+              "In my assessment, this approach may not be effective. I suggest we consider alternatives."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.3064708709716797,
+            "formality_score": 0.65
+          },
+          {
+            "index": 4,
+            "source": "the new hire is super smart and picks things up really fast, def a great addition to the team",
+            "output": "The new hire is highly intelligent and quickly adapts to new challenges, making them a valuable addition to the team.",
+            "references": [
+              "The new hire has demonstrated strong aptitude and a quick learning curve. They're a valuable addition to the team.",
+              "Our new team member has shown excellent capability and adapts quickly. A strong addition to the team."
+            ],
+            "gleu": 0.30826276460621843,
+            "meaning_preserved": 1.0,
+            "latency": 1.4487991333007812,
+            "formality_score": 0.75
+          },
+          {
+            "index": 5,
+            "source": "sorry but we can't do that, the budget won't allow it and frankly it's not worth the effort",
+            "output": "We regret to inform you that we cannot proceed with this request. The budget does not permit it, and frankly, it is not worth the effort.",
+            "references": [
+              "Unfortunately, this falls outside our current budget constraints, and the expected return doesn't justify the investment.",
+              "I'm afraid this isn't feasible given our budget limitations, and the cost-benefit analysis doesn't support it."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.632978916168213,
+            "formality_score": 0.65
+          },
+          {
+            "index": 6,
+            "source": "just wanted to give u a heads up that the client is kinda unhappy with the latest deliverable",
+            "output": "I wanted to inform you that the client is somewhat dissatisfied with the latest deliverable.",
+            "references": [
+              "I wanted to flag that the client has expressed dissatisfaction with the latest deliverable.",
+              "Please be aware that the client has raised concerns about the most recent deliverable."
+            ],
+            "gleu": 0.3040559696901293,
+            "meaning_preserved": 1.0,
+            "latency": 1.3915510177612305,
+            "formality_score": 0.65
+          },
+          {
+            "index": 7,
+            "source": "we need to figure out why users keep dropping off at the checkout page, its hurting our conversion rate big time",
+            "output": "We need to identify the reasons why users are consistently dropping off at the checkout page, as this is significantly impacting our conversion rate.",
+            "references": [
+              "We need to investigate the high drop-off rate on our checkout page, as it's significantly impacting our conversion metrics.",
+              "Our checkout page drop-off rate requires investigation \u2014 it's having a substantial negative impact on conversions."
+            ],
+            "gleu": 0.18641996229708285,
+            "meaning_preserved": 0.6666666666666666,
+            "latency": 1.595993995666504,
+            "formality_score": 0.65
+          },
+          {
+            "index": 8,
+            "source": "Please find attached the quarterly report for your review.",
+            "output": "Please find attached the quarterly report for your review.",
+            "references": [
+              "Please find attached the quarterly report for your review.",
+              "Attached is the quarterly report for your review."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2273693084716797,
+            "formality_score": 0.73,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 9,
+            "source": "We appreciate your continued partnership and look forward to future collaboration.",
+            "output": "We appreciate your continued partnership and look forward to future collaboration.",
+            "references": [
+              "We appreciate your continued partnership and look forward to future collaboration."
+            ],
+            "gleu": 1.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.2595839500427246,
+            "formality_score": 0.73,
+            "stability_test": true,
+            "stability_pass": true
+          },
+          {
+            "index": 10,
+            "source": "the deploy broke prod, we're rolling back now. seems like the db migration script had a bug",
+            "output": "A production incident occurred during deployment. We are currently executing a rollback. It appears that a bug in the database migration script caused the issue.",
+            "references": [
+              "A production incident occurred during deployment \u2014 we're executing a rollback. The root cause appears to be a bug in the database migration script.",
+              "The deployment caused a production issue. We are currently rolling back. Initial analysis points to a defect in the database migration script."
+            ],
+            "gleu": 0.39022736644855677,
+            "meaning_preserved": 1.0,
+            "latency": 1.5758280754089355,
+            "formality_score": 0.75
+          },
+          {
+            "index": 11,
+            "source": "lol the intern fixed that bug that's been open for 6 months, nobody else could figure it out",
+            "output": "The intern resolved a long-standing bug that had been open for six months, a problem that no one else was able to identify or fix.",
+            "references": [
+              "Our intern resolved a long-standing bug that had been open for six months \u2014 a notable achievement that the rest of the team had been unable to address.",
+              "Impressively, the intern resolved a six-month-old bug that had stumped the rest of the team."
+            ],
+            "gleu": 0.38518126864566865,
+            "meaning_preserved": 1.0,
+            "latency": 1.5571248531341553,
+            "formality_score": 0.5499999999999999
+          },
+          {
+            "index": 12,
+            "source": "idk if we should go with AWS or GCP for this, both have pros and cons. thoughts?",
+            "output": "We are currently evaluating whether to proceed with AWS or GCP for this project, as both platforms offer distinct advantages and considerations. We would appreciate your insights on this matter.",
+            "references": [
+              "I'd like to discuss the tradeoffs between AWS and GCP for this project. Both platforms have distinct advantages. What are your thoughts?",
+              "We should evaluate AWS versus GCP for this initiative \u2014 each has its merits. I'd welcome your input."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.702524185180664,
+            "formality_score": 0.73
+          },
+          {
+            "index": 13,
+            "source": "ngl the product launch went way better than expected, tons of signups on day one",
+            "output": "The product launch exceeded expectations, with a significant number of signups on day one.",
+            "references": [
+              "The product launch exceeded expectations, with significant signup volume on the first day.",
+              "I'm pleased to report that the product launch performed above expectations, generating strong day-one signups."
+            ],
+            "gleu": 0.3759663529467017,
+            "meaning_preserved": 1.0,
+            "latency": 1.3852148056030273,
+            "formality_score": 0.75
+          },
+          {
+            "index": 14,
+            "source": "pls make sure u test everything before pushing to main, we had too many bugs last sprint",
+            "output": "Please ensure all testing is completed before pushing changes to the main branch. We experienced a significant number of bugs during the last sprint.",
+            "references": [
+              "Please ensure thorough testing before merging to main. We experienced an elevated number of defects last sprint and need to improve our quality gates.",
+              "Please run comprehensive tests before pushing to main. Last sprint's bug count was higher than acceptable."
+            ],
+            "gleu": 0.0,
+            "meaning_preserved": 1.0,
+            "latency": 1.5538411140441895,
+            "formality_score": 0.91
+          }
+        ]
+      }
+    ]
+  }
+}

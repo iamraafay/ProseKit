@@ -41,10 +41,7 @@ class RewriteEngine: ObservableObject {
     func loadModel(id: String = "mlx-community/Qwen3-8B-4bit",
                    onProgress: @escaping (Double) -> Void) async throws {
 
-        NSLog("[RewriteEngine] loadModel() called with id: \(id)")
-
         let configuration = ModelConfiguration(id: id)
-        NSLog("[RewriteEngine] ModelConfiguration created, calling LLMModelFactory.shared.loadContainer...")
 
         modelContainer = try await LLMModelFactory.shared.loadContainer(
             configuration: configuration
@@ -54,7 +51,6 @@ class RewriteEngine: ObservableObject {
             }
         }
 
-        NSLog("[RewriteEngine] Model container loaded successfully")
         isModelLoaded = true
     }
 

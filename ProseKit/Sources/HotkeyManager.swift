@@ -33,12 +33,8 @@ class HotkeyManager: ObservableObject {
     func register() {
         guard globalMonitor == nil else { return }
 
-        let trusted = AXIsProcessTrusted()
-        try? "AXIsProcessTrusted: \(trusted)".write(toFile: "/tmp/prosekit-ax.txt", atomically: true, encoding: .utf8)
-
         // Global monitor: catches events when OTHER apps are focused
         globalMonitor = NSEvent.addGlobalMonitorForEvents(matching: .keyDown) { [weak self] event in
-            try? "keyDown: keyCode=\(event.keyCode) modifiers=\(event.modifierFlags.rawValue)".write(toFile: "/tmp/prosekit-key.txt", atomically: true, encoding: .utf8)
             Task { @MainActor in
                 self?.handleKeyEvent(event)
             }
@@ -80,7 +76,6 @@ class HotkeyManager: ObservableObject {
 
         // ⌘⇧G → Rewrite
         if modifiers == [.command, .shift] && event.keyCode == keyG {
-            try? "HOTKEY MATCHED: Cmd+Shift+G".write(toFile: "/tmp/prosekit-hotkey.txt", atomically: true, encoding: .utf8)
             onRewriteTriggered?()
             return
         }

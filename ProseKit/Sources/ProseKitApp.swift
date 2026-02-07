@@ -15,9 +15,6 @@
 
 import SwiftUI
 import ApplicationServices
-import os
-
-private let logger = Logger(subsystem: "com.prosekit.ProseKit", category: "App")
 
 // MARK: - Shared State
 
@@ -35,7 +32,6 @@ enum Shared {
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
-        logger.notice("[ProseKit] applicationDidFinishLaunching")
         Task { @MainActor in
             await setup()
         }
@@ -49,11 +45,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let settingsStore = Shared.settingsStore
         let hotkeyManager = Shared.hotkeyManager
 
-        logger.notice("[ProseKit] setup() started")
-
         // 1. Load saved settings
         appState.currentMode = settingsStore.defaultMode
-        logger.notice("[ProseKit] Default mode: \(settingsStore.defaultMode.rawValue)")
 
         // 2. Request accessibility permission if needed
         if !AXIsProcessTrusted() {
@@ -62,7 +55,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             // Wait for user to grant in System Settings
             try? await Task.sleep(nanoseconds: 3_000_000_000)
         }
-        try? "AXIsProcessTrusted after prompt: \(AXIsProcessTrusted())".write(toFile: "/tmp/prosekit-ax.txt", atomically: true, encoding: .utf8)
 
         // 3. Register global hotkeys
         hotkeyManager.onRewriteTriggered = { [weak coordinator, weak appState] in
@@ -80,18 +72,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         hotkeyManager.register()
-        logger.notice("[ProseKit] Hotkeys registered")
 
-        // 3. Wire the rewrite engine to the coordinator
+        // 4. Wire the rewrite engine to the coordinator
         coordinator.engine = modelManager.engine
 
-        // 4. Download and load the model
-        logger.notice("[ProseKit] Starting model initialization with ID: \(settingsStore.modelID)")
+        // 5. Download and load the model
         await modelManager.initialize(
             modelID: settingsStore.modelID,
             appState: appState
         )
-        logger.notice("[ProseKit] Model initialization completed. Status: \(modelManager.statusMessage)")
     }
 }
 
