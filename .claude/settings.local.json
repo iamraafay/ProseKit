@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew search:*)",
+      "Bash(/opt/homebrew/bin/brew search:*)",
+      "Bash(/opt/homebrew/bin/brew install:*)",
+      "Bash(/Applications/Swama.app/Contents/Helpers/swama-bin:*)",
+      "Bash(curl:*)",
+      "Bash(python3 -m json.tool:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
